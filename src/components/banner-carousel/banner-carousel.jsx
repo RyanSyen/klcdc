@@ -1,3 +1,5 @@
+"use client";
+
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 
@@ -28,9 +30,6 @@ const BannerCarousel = () => {
                 className="w-full h-full object-cover"
                 src={img.url}
                 alt={img.name}
-                data-img-src={img.src}
-                data-img-views={img.views}
-                data-img-published={img.published}
                 fill
                 priority
               />

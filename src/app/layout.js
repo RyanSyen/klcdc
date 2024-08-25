@@ -12,9 +12,9 @@ export const metadata = {
   verification: {
     google: "k5c1dOA22A7ZKscgk0rLGr0IsVB-V64OrGBqDiI8ag0",
   },
-  other: {
-    "google-site-verification": "k5c1dOA22A7ZKscgk0rLGr0IsVB-V64OrGBqDiI8ag0",
-  },
+  // other: {
+  //   "google-site-verification": "k5c1dOA22A7ZKscgk0rLGr0IsVB-V64OrGBqDiI8ag0", // this way works too
+  // },
 };
 
 export default function RootLayout({ children }) {
