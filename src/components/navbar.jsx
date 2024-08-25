@@ -131,6 +131,9 @@ const Navbar = () => {
   return (
     <div className="fixed inset-x-0 z-50 w-full inline-flex justify-around items-center">
       <Menu setActive={setActive}>
+        <HoveredLink href="/" onMouseEnter={() => setActive(null)}>
+          Home
+        </HoveredLink>
         <HoveredLink href="/about" onMouseEnter={() => setActive(null)}>
           About Us
         </HoveredLink>
