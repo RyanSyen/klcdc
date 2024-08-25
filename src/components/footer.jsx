@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="w-full p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+            <a href="/" className="flex items-center">
               <Image
                 src="/icon/logo.png"
                 width={48}
@@ -28,19 +29,15 @@ const Footer = () => {
                 Contact
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  {/* <a href="https://flowbite.com/" className="hover:underline">
-                    Flowbite
-                  </a> */}
-                  Pastor Peter Wong
-                </li>
+                <li className="mb-4">Pastor Peter Wong</li>
                 <li>
-                  <a
+                  <Link
                     href="https://api.whatsapp.com/send?phone=60123564644"
                     className="hover:underline"
+                    target="_blank"
                   >
                     012-3564644
-                  </a>
+                  </Link>
                   , 03-74994478
                 </li>
               </ul>
@@ -51,20 +48,22 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a
+                  <Link
                     href="https://www.christiandiscipleschurch.org/"
                     className="hover:underline "
+                    target="_blank"
                   >
                     Main Website (Christian Disciples Church)
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.instagram.com/rootedto_rise/"
                     className="hover:underline"
+                    target="_blank"
                   >
                     Instagram (Rooted To Rise)
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
