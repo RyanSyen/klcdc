@@ -8,6 +8,7 @@ const Banner = () => {
         <Image
           className="object-cover"
           src={"/carousel/christmas.jpg"}
+          alt="banner"
           fill
           priority
         />

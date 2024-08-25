@@ -45,7 +45,12 @@ export const HoverEffect = ({ items, className }) => {
             <div className={"flex items-center gap-6"}>
               {item.icon && (
                 <div>
-                  <Image src={item.icon} width={64} height={64} />
+                  <Image
+                    src={item.icon}
+                    width={64}
+                    height={64}
+                    alt={item.title}
+                  />
                 </div>
               )}
               <div>
