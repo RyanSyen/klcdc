@@ -6,7 +6,7 @@ import { fadeIn, textVariant } from "@/lib/motion";
 
 const CurrentSeries = () => {
   return (
-    <div className="h-96 lg:h-[100vh] relative ">
+    <div id="currentSeries" className="h-96 lg:h-[100vh] relative">
       <div className="relative w-full h-full">
         <Image
           className="object-cover"

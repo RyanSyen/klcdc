@@ -1,6 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import { FlipWords } from "../ui/flip-words";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   const words = ["GROW", "PRAY", "LEARN", "EXPERIENCE", "WORSHIP", "CELEBRATE"];
@@ -26,6 +30,23 @@ const Banner = () => {
               <FlipWords words={words} /> <br />
             </div>
           </div>
+        </div>
+        <div className="absolute xs:bottom-10 bottom-11 w-full flex justify-center items-center z-[3]">
+          <Link href={"#currentSeries"}>
+            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
+              <motion.div
+                animate={{
+                  y: [0, 24, 0],
+                }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+                className="w-3 h-3 rounded-full bg-secondary mb-1"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
