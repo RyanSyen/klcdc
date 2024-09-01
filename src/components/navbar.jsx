@@ -127,55 +127,78 @@ export const HoveredLink = ({ children, ...rest }) => {
 
 const Navbar = () => {
   const [active, setActive] = useState(null);
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    let previousScrollPosition = 0;
+    let currentScrollPosition = 0;
+
+    window.addEventListener("scroll", function (e) {
+      // Get the new Value
+      currentScrollPosition = window.pageYOffset;
+
+      //Subtract the two and conclude
+      if (previousScrollPosition - currentScrollPosition < 0) {
+        setShow(true);
+      } else if (previousScrollPosition - currentScrollPosition > 0) {
+        setShow(false);
+      }
+
+      // Update the previous value
+      previousScrollPosition = currentScrollPosition;
+    });
+  }, []);
 
   return (
-    <div className="fixed inset-x-0 z-50 w-full inline-flex justify-around items-center">
-      <Menu setActive={setActive}>
-        <HoveredLink href="/" onMouseEnter={() => setActive(null)}>
-          Home
-        </HoveredLink>
-        <HoveredLink href="/about" onMouseEnter={() => setActive(null)}>
-          About Us
-        </HoveredLink>
-        <HoveredLink href="/sermons" onMouseEnter={() => setActive(null)}>
-          Sermons
-        </HoveredLink>
-        <HoveredLink href="/testimonies" onMouseEnter={() => setActive(null)}>
-          Testimonies
-        </HoveredLink>
-        <HoveredLink href="/sports" onMouseEnter={() => setActive(null)}>
-          Sports
-        </HoveredLink>
-        <HoveredLink href="/events" onMouseEnter={() => setActive(null)}>
-          Events
-        </HoveredLink>
-        <MenuItem setActive={setActive} active={active} item="Join Us">
-          <div className="text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Sunday Service"
-              href="/sunday-service"
-              src="/navbar/service.jpg"
-              description="Let's gather in His name this Sunday."
-            />
-            <ProductItem
-              title="Youth Corner"
-              href="/youth-corner"
-              src="/navbar/youth-corner.png"
-              description="Growing the next generations."
-            />
-            <ProductItem
-              title="Bible Studies"
-              href="/bible-study"
-              src="/navbar/bible-study.jpg"
-              description="Learning and deepening our faith through scripture."
-            />
-          </div>
-        </MenuItem>
-        <HoveredLink href="/contact" onMouseEnter={() => setActive(null)}>
-          Contact Us
-        </HoveredLink>
-      </Menu>
-    </div>
+    <nav className={`navbar active ${show && "hidden"}`}>
+      <div className="fixed inset-x-0 z-50 w-full inline-flex justify-around items-center">
+        <Menu setActive={setActive}>
+          <HoveredLink href="/" onMouseEnter={() => setActive(null)}>
+            Home
+          </HoveredLink>
+          <HoveredLink href="/about" onMouseEnter={() => setActive(null)}>
+            About Us
+          </HoveredLink>
+          <HoveredLink href="/sermons" onMouseEnter={() => setActive(null)}>
+            Sermons
+          </HoveredLink>
+          <HoveredLink href="/testimonies" onMouseEnter={() => setActive(null)}>
+            Testimonies
+          </HoveredLink>
+          <HoveredLink href="/sports" onMouseEnter={() => setActive(null)}>
+            Sports
+          </HoveredLink>
+          <HoveredLink href="/events" onMouseEnter={() => setActive(null)}>
+            Events
+          </HoveredLink>
+          <MenuItem setActive={setActive} active={active} item="Join Us">
+            <div className="text-sm grid grid-cols-2 gap-10 p-4">
+              <ProductItem
+                title="Sunday Service"
+                href="/sunday-service"
+                src="/navbar/service.jpg"
+                description="Let's gather in His name this Sunday."
+              />
+              <ProductItem
+                title="Youth Corner"
+                href="/youth-corner"
+                src="/navbar/youth-corner.png"
+                description="Growing the next generations."
+              />
+              <ProductItem
+                title="Bible Studies"
+                href="/bible-study"
+                src="/navbar/bible-study.jpg"
+                description="Learning and deepening our faith through scripture."
+              />
+            </div>
+          </MenuItem>
+          <HoveredLink href="/contact" onMouseEnter={() => setActive(null)}>
+            Contact Us
+          </HoveredLink>
+        </Menu>
+      </div>
+    </nav>
   );
 };
 

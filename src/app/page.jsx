@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
+import CurrentSeries from "../components/home/currentSeries";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,6 +17,8 @@ export default function Home() {
     <>
       {/* <BannerCarousel /> */}
       <Banner />
+      <div className="h-20 bg-black" />
+      <CurrentSeries />
       <Category />
       <div className="py-6 px-10">
         <MeetingTimes />
