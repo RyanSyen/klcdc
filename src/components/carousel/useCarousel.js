@@ -3,23 +3,6 @@ import { useEffect, useState } from "react";
 const useCarousel = () => {
   const [api, setApi] = useState();
   const [current, setCurrent] = useState(0);
-  const images = [
-    {
-      id: 0,
-      name: "Christmas Gathering",
-      url: "/carousel/christmas.jpg",
-    },
-    {
-      id: 1,
-      name: "Putrajaya Retreat",
-      url: "/carousel/putrajaya-retreat.jpg",
-    },
-    {
-      id: 2,
-      name: "Picnic",
-      url: "/carousel/picnic.jpg",
-    },
-  ];
 
   useEffect(() => {
     if (!api) {
@@ -37,7 +20,6 @@ const useCarousel = () => {
 
   return {
     setApi,
-    images,
     slideTo,
     current,
   };

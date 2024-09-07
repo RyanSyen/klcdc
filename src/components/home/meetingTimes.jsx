@@ -57,20 +57,19 @@ const MeetingTimes = () => {
         Meeting Times
       </h1>
       <div className="flex justify-center items-center gap-8 py-8 flex-wrap">
-        {data.map((item) => {
-          return <MeetingTimesCard key={item.id} data={item} />;
+        {data.map((item, index) => {
+          return <MeetingTimesCard key={index} data={item} index={index} />;
         })}
       </div>
     </div>
   );
 };
 
-const MeetingTimesCard = ({ data }) => {
-  console.log();
+const MeetingTimesCard = ({ data, index }) => {
   return (
     <div className="w-[350px]">
       <motion.div
-        variants={fadeIn("right", "spring", data.id * 0.5, 0.75)}
+        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div className="w-xs w-full border-[2px] rounded-xl">
@@ -83,6 +82,7 @@ const MeetingTimesCard = ({ data }) => {
                 fill
                 className="rounded-lg object-cover"
                 alt={data.title}
+                priority
               />
             </div>
             <div className="flex flex-col justify-between p-4 min-h-44">

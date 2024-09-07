@@ -1,7 +1,7 @@
 import Banner from "@/components/banner/banner";
 import CurrentSeries from "@/components/home/currentSeries";
 import MeetingTimes from "@/components/home/meetingTimes";
-// import MainCarousel from "@/components/carousel/carousel";
+import UpcomingEvents from "@/components/home/upcomingEvents";
 
 export default function Home() {
   return (
@@ -10,7 +10,8 @@ export default function Home() {
       <div className="h-20 bg-black" />
       <CurrentSeries />
       <MeetingTimes />
-      {/* <MainCarousel /> */}
+      {/* TODO: Worship section */}
+      <UpcomingEvents />
     </>
   );
 }

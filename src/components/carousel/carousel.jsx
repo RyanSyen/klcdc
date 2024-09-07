@@ -12,7 +12,7 @@ import {
 import useCarousel from "./useCarousel";
 
 const MainCarousel = () => {
-  const { setApi, images, slideTo, current } = useCarousel();
+  const { setApi, slideTo, current } = useCarousel();
 
   return (
     <Carousel
@@ -23,8 +23,8 @@ const MainCarousel = () => {
       ]}
     >
       <CarouselContent>
-        {images.map((img) => (
-          <CarouselItem key={img.id}>
+        {images.map((img, index) => (
+          <CarouselItem key={index}>
             <div className="w-full  min-h-96 pb-[50%] md:pb-[35%] relative">
               <Image
                 className="w-full h-full object-cover"
