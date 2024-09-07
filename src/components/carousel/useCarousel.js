@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useBannerCarousel = () => {
+const useCarousel = () => {
   const [api, setApi] = useState();
   const [current, setCurrent] = useState(0);
   const images = [
@@ -43,4 +43,4 @@ const useBannerCarousel = () => {
   };
 };
 
-export default useBannerCarousel;
+export default useCarousel;

@@ -31,7 +31,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="absolute xs:bottom-10 bottom-11 w-full flex justify-center items-center z-[3]">
+        <div className="hidden absolute xs:bottom-10 bottom-11 w-full lg:flex justify-center items-center z-[3]">
           <Link href={"#currentSeries"}>
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
               <motion.div

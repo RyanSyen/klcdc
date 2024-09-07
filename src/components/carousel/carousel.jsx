@@ -9,10 +9,10 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 
-import useBannerCarousel from "./useBannerCarousel";
+import useCarousel from "./useCarousel";
 
-const BannerCarousel = () => {
-  const { setApi, images, slideTo, current } = useBannerCarousel();
+const MainCarousel = () => {
+  const { setApi, images, slideTo, current } = useCarousel();
 
   return (
     <Carousel
@@ -52,4 +52,4 @@ const BannerCarousel = () => {
   );
 };
 
-export default BannerCarousel;
+export default MainCarousel;

@@ -3,9 +3,10 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "checkJs": true,
-    "module": "CommonJS",
-    "target": "ES6"
+    // "checkJs": true,
+    // "module": "CommonJS",
+    // "target": "ES6"
   },
-  "exclude": ["node_modules", "**/node_modules/*"]
+  // "exclude": ["node_modules", "**/node_modules/*"]
+  
 }
