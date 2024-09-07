@@ -52,10 +52,13 @@ const data = [
 
 const MeetingTimes = () => {
   return (
-    <div className="w-full bg-black p-8">
-      <h1 className="text-3xl lg:text-5xl logoSubtitle capitalize text-center">
+    <div className="w-full bg-black h-full py-20">
+      {/* <h1 className="text-3xl lg:text-5xl logoSubtitle capitalize text-center">
         Meeting Times
-      </h1>
+      </h1> */}
+      <h2 className="max-w-7xl pl-8 text-xl md:text-5xl font-bold text-neutral-200 font-sans text-center">
+        Meeting Times
+      </h2>
       <div className="flex justify-center items-center gap-8 py-8 flex-wrap">
         {data.map((item, index) => {
           return <MeetingTimesCard key={index} data={item} index={index} />;
