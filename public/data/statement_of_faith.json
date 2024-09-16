@@ -1,0 +1,428 @@
+[
+    {
+        "title": "God",
+        "points": [
+            {
+                "point": "There is one and only one God, and He is one Person",
+                "verses": [
+                    {
+                        "shortText": "Dt.6:4",
+                        "longText": "Deuteronomy 6:4",
+                        "verse": "4 Hear, O Israel: The Lord our God, the Lord is one."
+                    },
+                    {
+                        "shortText": "Mk.12:29",
+                        "longText": "Mark 12:29",
+                        "verse": "29 Jesus answered, “The most important is, Hear, O Israel: The Lord our God, the Lord is one."
+                    },
+                    {
+                        "shortText": "Jn.5:44",
+                        "longText": "John 5:44",
+                        "verse": "44 How can you believe, when you receive glory from one another and do not seek the glory that is from the only God?"
+                    },
+                    {
+                        "shortText": "17:3",
+                        "longText": "John 17:3",
+                        "verse": "3 And this is eternal life, that they may know You, the only true God, and Jesus Christ whom You have sent."
+                    },
+                    {
+                        "shortText": "Rom.16:27",
+                        "longText": "Romans 16:27",
+                        "verse": "27 to the only wise God be glory forevermore through Jesus Christ!"
+                    },
+                    {
+                        "shortText": "1Cor.8:6",
+                        "longText": "1 Corinthians 8:6",
+                        "verse": "6 yet for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist."
+                    },
+                    {
+                        "shortText": "1Tim.2:5",
+                        "longText": "1 Timothy 2:5",
+                        "verse": "5 For there is one God and one mediator between God and men, the man Christ Jesus,"
+                    },
+                    {
+                        "shortText": "Jude 1:25",
+                        "longText": "Jude 1:25",
+                        "verse": "25 To the only God our Savior, through Jesus Christ our Lord, be glory, majesty, dominion and authority, before all time and now and forever. Amen."
+                    }
+                ]
+            },
+            {
+                "point": "The name of God is Yahweh (YHWH)",
+                "verses": [
+                    {
+                        "shortText": "Ex.3:15",
+                        "longText": "Exodus 3:15",
+                        "verse": "15 And God said to Moses, “You shall tell the Israelites, 'Yahweh, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.' This is My name forever, and this is My memorial to all generations."
+                    },
+                    {
+                        "shortText": "15:3",
+                        "longText": "Exodus 15:3",
+                        "verse": "3  The Lord is a man of war; the Lord is his name."
+                    },
+                    {
+                        "shortText": "Jer.16:21",
+                        "longText": "Jeremiah 16:21",
+                        "verse": "21 “Therefore, behold, I will make them know, this once I will make them know my power and my might, and they shall know that my name is the Lord.”"
+                    }
+                ]
+            },
+            {
+                "point": "There is no God besides Yahweh, the only true God",
+                "verses": [
+                    {
+                        "shortText": "Ex.20:2-3",
+                        "longText": "Exodus 20:2-3",
+                        "verse": "2 “I am the Lord your God, who brought you out of the land of Egypt, out of the house of slavery. 3 “You shall have no other gods before me."
+                    },
+                    {
+                        "shortText": "Dt.4:35",
+                        "longText": "Deuteronomy 4:35",
+                        "verse": "35 To you it was shown, that you might know that the Lord is God; there is no other besides him."
+                    },
+                    {
+                        "shortText": "1Sam.2:2",
+                        "longText": "1 Samuel 2:2",
+                        "verse": "2 There is none holy like the Lord: for there is none besides you; there is no rock like our God."
+                    },
+                    {
+                        "shortText": "1Ki.8:60",
+                        "longText": "1 Kings 8:60",
+                        "verse": "60 that all the peoples of the earth may know that the Lord is God; there is no other."
+                    },
+                    {
+                        "shortText": "Isa.44:8",
+                        "longText": "Isaiah 44:8",
+                        "verse": "8 Fear not, nor be afraid; have I not told you from of old and declared it? And you are my witnesses! Is there a God besides me? There is no Rock; I know not any."
+                    },
+                    {
+                        "shortText": "45:5-6",
+                        "longText": "Isaiah 45:5-6",
+                        "verse": "5 I am the Lord, and there is no other, besides me there is no God; I equip you, though you do not know me, 6  that people may know, from the rising of the sun and from the west, that there is none besides me; I am the Lord, and there is no other."
+                    },
+                    {
+                        "shortText": "45:21-22",
+                        "longText": "Isaiah 45:21-22",
+                        "verse": "21 Declare and present your case; let them take counsel together! Who told this long ago? Who declared it of old? Was it not I, the Lord? And there is no other god besides me, a righteous God and a Savior; there is none besides me. 22 “Turn to me and be saved, all the ends of the earth! For I am God, and there is no other."
+                    },
+                    {
+                        "shortText": "46:9",
+                        "longText": "Isaiah 46:9",
+                        "verse": "9 Remember the former things of old; for I am God, and there is no other; I am God, and there is none like me,"
+                    },
+                    {
+                        "shortText": "Mk.12:29",
+                        "longText": "Mark 12:29",
+                        "verse": "29 Jesus answered, “The most important is, Hear, O Israel: The Lord our God, the Lord is one."
+                    },
+                    {
+                        "shortText": "Jn.17:3",
+                        "longText": "John 17:3",
+                        "verse": "3 And this is eternal life, that they may know you, the only true God, and Jesus Christ whom you have sent."
+                    },
+                    {
+                        "shortText": "Rom.16:27",
+                        "longText": "Romans 16:27",
+                        "verse": "27 to the only wise God be glory forevermore through Jesus Christ! Amen."
+                    }
+                ]
+            },
+            {
+                "point": "God is eternal, immortal, invisible",
+                "verses": [
+                    {
+                        "shortText": "1Tim.1:17",
+                        "longText": "1 Timothy 1:17",
+                        "verse": "17 To the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen."
+                    },
+                    {
+                        "shortText": "6:16",
+                        "longText": "1 Timothy 6:16",
+                        "verse": "16 who alone has immortality, who dwells in unapproachable light, whom no one has ever seen or can see. To him be honor and eternal dominion. Amen."
+                    },
+                    {
+                        "shortText": "Jn.1:18",
+                        "longText": "John 1:18",
+                        "verse": "18 No one has seen God, but the one and only Son, who is himself God and is in closest relationship with the Father, has made him known."
+                    },
+                    {
+                        "shortText": "1Jn.4:12",
+                        "longText": "1 John 4:12",
+                        "verse": "12 No one has ever seen God; if we love one another, God abides in us and his love is perfected in us."
+                    }
+                ]
+            },
+            {
+                "point": "God is all powerful, all knowing, and everywhere present",
+                "verses": [
+                    {
+                        "shortText": "Job 11:7",
+                        "longText": "Job 11:7",
+                        "verse": "7 Can you find out the deep things of God? Can you find out the limit of the Almighty?"
+                    },
+                    {
+                        "shortText": "Ps.139:2-8",
+                        "longText": "Psalm 139:2-8",
+                        "verse": "2 You know when I sit down and when I rise up; you discern my thoughts from afar. 3 You search out my path and my lying down and are acquainted with all my ways. 4 Even before a word is on my tongue, behold, O Lord, you know it altogether. 5 You hem me in, behind and before, and lay your hand upon me. 6 Such knowledge is too wonderful for me; it is high, I cannot attain to it. 7 Where can I go from your Spirit? Where can I flee from your presence? 8 If I ascend to heaven, you are there; if I make my bed in the depths, you are there."
+                    },
+                    {
+                        "shortText": "Mt.19:26",
+                        "longText": "Matthew 19:26",
+                        "verse": "26 But Jesus looked at them and said, “With man this is impossible, but with God all things are possible.”"
+                    },
+                    {
+                        "shortText": "Lk.1:37",
+                        "longText": "Luke 1:37",
+                        "verse": "37 For nothing will be impossible with God."
+                    },
+                    {
+                        "shortText": "1Jn.3:20",
+                        "longText": "1 John 3:20",
+                        "verse": "20 for whenever our heart condemns us, God is greater than our heart, and he knows everything."
+                    }
+                ]
+            },
+            {
+                "point": "God is holy, compassionate, and loving",
+                "verses": [
+                    {
+                        "shortText": "Lev.19:2",
+                        "longText": "Leviticus 19:2",
+                        "verse": "2 Speak to all the congregation of the people of Israel and say to them, You shall be holy, for I the Lord your God am holy."
+                    },
+                    {
+                        "shortText": "20:26",
+                        "longText": "Leviticus 20:26",
+                        "verse": "26 You shall be holy to me, for I the Lord am holy and have separated you from the peoples, that you should be mine."
+                    },
+                    {
+                        "shortText": "Ps.99:9",
+                        "longText": "Psalm 99:9",
+                        "verse": "9 Exalt the Lord our God, and worship at his holy mountain; for the Lord our God is holy!"
+                    },
+                    {
+                        "shortText": "1Pet.1:16",
+                        "longText": "1 Peter 1:16",
+                        "verse": "16 since it is written, “You shall be holy, for I am holy.”"
+                    },
+                    {
+                        "shortText": "Ex.34:6",
+                        "longText": "Exodus 34:6",
+                        "verse": "6 The Lord passed before him and proclaimed, “The Lord, the Lord, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness,"
+                    },
+                    {
+                        "shortText": "Ps.78:38",
+                        "longText": "Psalm 78:38",
+                        "verse": "38 Yet he, being compassionate, atoned for their iniquity and did not destroy them; he restrained his anger often and did not stir up all his wrath."
+                    },
+                    {
+                        "shortText": "Ps.136:1",
+                        "longText": "Psalm 136:1",
+                        "verse": "1 Give thanks to the Lord, for he is good, for his steadfast love endures forever."
+                    },
+                    {
+                        "shortText": "Jn.3:16",
+                        "longText": "John 3:16",
+                        "verse": "16 “For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."
+                    },
+                    {
+                        "shortText": "1Jn.4:8",
+                        "longText": "1 John 4:8",
+                        "verse": "8 Anyone who does not love does not know God, because God is love."
+                    },
+                    {
+                        "shortText": "16",
+                        "longText": "1 John 4:16",
+                        "verse": "16 So we have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him."
+                    }
+                ]
+            },
+            {
+                "point": "God is Spirit",
+                "verses": [
+                    {
+                        "shortText": "Jn.4:24",
+                        "longText": "John 4:24",
+                        "verse": "24 God is spirit, and those who worship him must worship in spirit and truth."
+                    }
+                ]
+            },
+            {
+                "point": "The Holy Spirit is the Spirit of Yahweh, and very Spirit of very God",
+                "verses": [
+                    {
+                        "shortText": "Ps.51:11",
+                        "longText": "Psalm 51:11",
+                        "verse": "11 Cast me not away from your presence, and take not your Holy Spirit from me."
+                    },
+                    {
+                        "shortText": "139:7",
+                        "longText": "Psalm 139:7",
+                        "verse": "7 Where shall I go from your Spirit? Or where shall I flee from your presence?"
+                    },
+                    {
+                        "shortText": "Isa.11:2",
+                        "longText": "Isaiah 11:2",
+                        "verse": "2 And the spirit of the Lord shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the Lord,"
+                    },
+                    {
+                        "shortText": "40:13",
+                        "longText": "Isaiah 40:13",
+                        "verse": "13 Who has measured the Spirit of the Lord, or what man shows him his counsel?"
+                    },
+                    {
+                        "shortText": "Micah 3:8",
+                        "longText": "Micah 3:8",
+                        "verse": "8 But as for me, I am filled with power, with the Spirit of the Lord, and with justice and might, to declare to Jacob his transgression and to Israel his sin."
+                    },
+                    {
+                        "shortText": "Mt.10.20",
+                        "longText": "Matthew 10:20",
+                        "verse": "20 For it is not you who speak, but the Spirit of your Father speaking through you."
+                    },
+                    {
+                        "shortText": "Lk.12:12",
+                        "longText": "Luke 12:12",
+                        "verse": "12 for the Holy Spirit will teach you in that very hour what you ought to say."
+                    },
+                    {
+                        "shortText": "1Cor.2:11",
+                        "longText": "1 Corinthians 2:11",
+                        "verse": "11 For who knows a person's thoughts except the spirit of that person, which is in him? So also no one comprehends the thoughts of God except the Spirit of God."
+                    },
+                    {
+                        "shortText": "2Cor.3:17-18",
+                        "longText": "2 Corinthians 3:17-18",
+                        "verse": "17 Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. 18 And we all, with unveiled face, seeing the glory of the Lord as though reflected in a mirror, are being transformed into the same image from glory to glory, as from the Lord, the Spirit."
+                    }
+                ]
+            },
+            {
+                "point": "Yahweh alone is the Creator of the heavens and the earth",
+                "verses": [
+                    {
+                        "shortText": "Ex.31:17",
+                        "longText": "Exodus 31:17",
+                        "verse": "17 It is a sign forever between me and the people of Israel that in six days the Lord made heaven and earth, and on the seventh day he rested and was refreshed."
+                    },
+                    {
+                        "shortText": "Isa.44:24",
+                        "longText": "Isaiah 44:24",
+                        "verse": "24 Thus says the Lord, your Redeemer, who formed you from the womb: “I am the Lord, who made all things, who alone stretched out the heavens, who spread out the earth by myself,"
+                    },
+                    {
+                        "shortText": "45:12",
+                        "longText": "Isaiah 45:12",
+                        "verse": "12  I made the earth, and created man on it; it was my hands that stretched out the heavens, and I commanded all their host."
+                    },
+                    {
+                        "shortText": "Neh.9:6",
+                        "longText": "Nehemiah 9:6",
+                        "verse": "6  “You are the Lord, you alone. You have made heaven, the heaven of heavens, with all their host, the earth and all that is on it, the seas and all that is in them; and you preserve all of them; and the host of heaven worships you."
+                    },
+                    {
+                        "shortText": "Jer.51:19",
+                        "longText": "Jeremiah 51:19",
+                        "verse": "19  Not like these is he who is the portion of Jacob, for he is the one who formed all things, and Israel is the tribe of his inheritance; the Lord of hosts is his name."
+                    },
+                    {
+                        "shortText": "Acts 4:24",
+                        "longText": "Acts 4:24",
+                        "verse": "24 And when they heard it, they lifted their voices together to God and said, “Sovereign Lord, who made the heaven and the earth and the sea and everything in them,"
+                    },
+                    {
+                        "shortText": "Rev.14:7",
+                        "longText": "Revelation 14:7",
+                        "verse": "7 And he said with a loud voice, “Fear God and give him glory, because the hour of his judgment has come, and worship him who made heaven and earth, the sea and the springs of water."
+                    }
+                ]
+            },
+            {
+                "point": "Yahweh is the God of Abraham, Isaac, and Jacob",
+                "verses": [
+                    {
+                        "shortText": "Ex.3:6",
+                        "longText": "Exodus 3:6",
+                        "verse": "6 And he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” And Moses hid his face, for he was afraid to look at God."
+                    },
+                    {
+                        "shortText": "3:15",
+                        "longText": "Exodus 3:15",
+                        "verse": "15 God also said to Moses, “Say this to the people of Israel: 'The Lord, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.' This is my name forever, and thus I am to be remembered throughout all generations."
+                    },
+                    {
+                        "shortText": "4:5",
+                        "longText": "Exodus 4:5",
+                        "verse": "5 “that they may believe that the Lord, the God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has appeared to you.”"
+                    },
+                    {
+                        "shortText": "Mt.22:32",
+                        "longText": "Matthew 22:32",
+                        "verse": "32 'I am the God of Abraham, and the God of Isaac, and the God of Jacob'? He is not God of the dead, but of the living.”"
+                    },
+                    {
+                        "shortText": "Acts 3:13",
+                        "longText": "Acts 3:13",
+                        "verse": "13 The God of Abraham, the God of Isaac, and the God of Jacob, the God of our fathers, glorified his servant Jesus, whom you delivered over and denied in the presence of Pilate, when he had decided to release him."
+                    },
+                    {
+                        "shortText": "7:32",
+                        "longText": "Acts 7:32",
+                        "verse": "32 'I am the God of your fathers, the God of Abraham and of Isaac and of Jacob.' And Moses trembled and did not dare to look."
+                    }
+                ]
+            },
+            {
+                "point": "Yahweh is the God and Father of Jesus Christ",
+                "verses": [
+                    {
+                        "shortText": "Jn.20:17",
+                        "longText": "John 20:17",
+                        "verse": "17 Jesus said to her, “Do not cling to me, for I have not yet ascended to the Father; but go to my brothers and say to them,'I am ascending to my Father and your Father, to my God and your God.'”"
+                    },
+                    {
+                        "shortText": "Rom.15:6",
+                        "longText": "Romans 15:6",
+                        "verse": "6 that together you may with one voice glorify the God and Father of our Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "Eph.1:3",
+                        "longText": "Ephesians 1:3",
+                        "verse": "3 Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,"
+                    },
+                    {
+                        "shortText": "1:17",
+                        "longText": "Ephesians 1:17",
+                        "verse": "17 that the God of our Lord Jesus Christ, the Father of glory, may give you the Spirit of wisdom and of revelation in the knowledge of him,"
+                    }
+                ]
+            },
+            {
+                "point": "Yahweh is the God and Father of those who are in Jesus Christ",
+                "verses": [
+                    {
+                        "shortText": "Jn.1:12",
+                        "longText": "John 1:12",
+                        "verse": "12 But to all who did receive him, to those who believed in his name, he gave the right to become children of God,"
+                    },
+                    {
+                        "shortText": "20:17",
+                        "longText": "John 20:17",
+                        "verse": "17 Jesus said to her, “Do not cling to me, for I have not yet ascended to the Father; but go to my brothers and say to them,'I am ascending to my Father and your Father, to my God and your God.'”"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Jesus Christ",
+        "points": [
+            {
+                "point": "The Lord Jesus Christ is the Messiah, the Son of God",
+                "verses": [
+                    {}
+                ]
+            }
+        ]
+    }
+]

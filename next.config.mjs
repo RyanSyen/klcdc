@@ -14,6 +14,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.t2u.io",
       },
+      {
+        protocol: "https",
+        hostname: "api.microlink.io",
+      },
     ],
   },
 };

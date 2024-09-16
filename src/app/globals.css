@@ -70,9 +70,11 @@
   * {
     @apply border-border;
   }
+
   html {
     scroll-behavior: smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -80,12 +82,10 @@
 
 @layer utilities {
   .transparent-to-black-gradient {
-    background: linear-gradient(
-      180deg,
-      rgba(128, 128, 128, 0) 0%,
-      rgba(0, 0, 0, 0.8) 80%,
-      #000 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(128, 128, 128, 0) 0%,
+        rgba(0, 0, 0, 0.8) 80%,
+        #000 100%);
   }
 
   .black-to-transparent-gradient {
@@ -125,6 +125,22 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
   position: fixed;
-  top: -4rem; /* Adjusted to match the navbar height for a smooth slide-up */
+  top: -4rem;
+  /* Adjusted to match the navbar height for a smooth slide-up */
   transition: top 1.3s ease-in-out;
+}
+
+
+.tab-content::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.tab-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: linear-gradient(to bottom, #a855f7, #ec4899);
+  border-radius: 0.5rem;
 }
