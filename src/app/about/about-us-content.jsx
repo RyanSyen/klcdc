@@ -18,7 +18,7 @@ const AboutUsContent = () => {
                     </p>
                     <br />
                     <div>
-                        Christian Disciples Church has its beginnings in the 1970s when a small group of believers in Montreal invited Eric H.H. Chang (1934-2013) to minister to their tiny fledging church. Pastor Chang had previously been serving the Lord in England, first in a London church and later in a Liverpool church, where he was ordained by the Reverend Andrew McBeath. (You can read Pastor Chang's testimony{" "}
+                        Christian Disciples Church has its beginnings in the 1970s when a small group of believers in Montreal invited Eric H.H. Chang (1934-2013) to minister to their tiny fledging church. Pastor Chang had previously been serving the Lord in England, first in a London church and later in a Liverpool church, where he was ordained by the Reverend Andrew McBeath. (You can read Pastor Chang&apos;s testimony{" "}
                         <LinkPreview
                             url="https://christiandiscipleschurch.org/content/ehhc-testimony"
                             className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">
