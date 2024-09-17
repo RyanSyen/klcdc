@@ -15,7 +15,21 @@ const StatementOfFaithContent = ({ statementOfFaith }) => {
                 Statement of Faith
             </h2>
             <section className="w-full h-[90%] overflow-y-auto">
-                <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight pb-2">
+
+                <div className="bg-[#1F1F1F] p-4 rounded-md my-2">
+                    <div className="flex items-center gap-2 my-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                        </svg>
+                        <p className="font-bold">
+                            TIP
+                        </p>
+                    </div>
+                    <p className="text-sm text-[#ccc]">
+                        Glide the mouse pointer over a Bible reference to see the corresponding Bible text. In most English Bibles, the uppercase LORD corresponds to the divine name Yahweh that is prevalent in the Hebrew Scriptures.
+                    </p>
+                </div>
+                <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight py-2">
                     Preamble
                 </h3>
                 <p>
@@ -33,29 +47,36 @@ const StatementOfFaithContent = ({ statementOfFaith }) => {
                         </p>
                     </div>
                     <p className="text-sm text-[#ccc]">
-                        Glide the mouse pointer over a Bible reference to see the corresponding Bible text. In most English Bibles, the uppercase LORD corresponds to the divine name Yahweh that is prevalent in the Hebrew Scriptures.
+                        YHWH (יהוה, misrendered as “the LORD” in most Bibles) occurs 6,828 times in the Hebrew Scriptures, whereas Elohim (אֱלֹהִים, “God”) occurs about 2,600 times (sometimes referring to false gods)
                     </p>
                 </div>
                 <br />
                 <div>
-                    <ul className="list-inside list-roman">
+                    <ul className="">
                         {statementOfFaith.map((statement, index) => (
-                            <li key={index}>
-                                <span className="font-bold">{statement.title}</span>
+                            <li key={index} className="scroll-m-20 text-2xl font-semibold tracking-tight py-2">
+                                <div className="flex items-center text-[#fcfcfc]">
+                                    <span className="mr-2 text-2xl font-semibold">{toRoman(index + 1)}.</span>
+                                    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+                                        {statement.title}
+                                    </h3>
+                                </div>
                                 <ul className="list-inside list-disc">
                                     {statement.points.map((point, index) => (
-                                        <li key={index}>
+                                        <li key={index} className="text-lg font-normal py-1">
                                             {point.point}
-                                            <div className="flex flex-wrap items-center gap-2">
-                                                {point.verses.map((verse, index) => (
-                                                    <VerseTooltip key={index} verse={verse.shortText}>
-                                                        <div>
-                                                            <div>{verse.longText}</div>
-                                                            <hr className="py-1" />
-                                                            <div>{verse.verse}</div>
-                                                        </div>
-                                                    </VerseTooltip>
-                                                ))}
+                                            <div className="flex flex-wrap items-center gap-2 ">
+                                                ({point.verses.map((verse, index) => (
+                                                    <div key={index} className="text-sm font-medium leading-none text-muted-foreground">
+                                                        <VerseTooltip verse={verse.shortText} >
+                                                            <div>
+                                                                <div>{verse.longText}</div>
+                                                                <hr className="py-1" />
+                                                                <div>{verse.verse}</div>
+                                                            </div>
+                                                        </VerseTooltip>
+                                                    </div>
+                                                ))})
                                             </div>
                                         </li>
                                     ))}
@@ -83,5 +104,10 @@ const VerseTooltip = ({ children, ...props }) => {
         </div>
     )
 }
+
+const toRoman = (num) => {
+    const roman = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+    return roman[num - 1] || num;
+};
 
 export default StatementOfFaithContent;

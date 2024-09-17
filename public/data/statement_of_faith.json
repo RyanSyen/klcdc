@@ -420,7 +420,621 @@
             {
                 "point": "The Lord Jesus Christ is the Messiah, the Son of God",
                 "verses": [
-                    {}
+                    {
+                        "shortText": "Mt.16:16",
+                        "longText": "Matthew 16:16",
+                        "verse": "16 Simon Peter replied, “You are the Christ, the Son of the living God.”"
+                    },
+                    {
+                        "shortText": "Jn.20:31",
+                        "longText": "John 20:31",
+                        "verse": "31 But these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in his name."
+                    },
+                    {
+                        "shortText": "Heb.1:5",
+                        "longText": "Hebrews 1:5",
+                        "verse": "5 For to which of the angels did God ever say, “You are my Son, today I have begotten you”? Or again, “I will be to him a father, and he shall be to me a son”?"
+                    },
+                    {
+                        "shortText": "2Pet.1:11",
+                        "longText": "2 Peter 1:11",
+                        "verse": "11 For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ."
+                    },
+                    {
+                        "shortText": "2:20",
+                        "longText": "2 Peter 2:20",
+                        "verse": "20 For if, after they have escaped the defilements of the world through the knowledge of our Lord and Savior Jesus Christ, they are again entangled in them and overcome, the last state has become worse for them than the first."
+                    },
+                    {
+                        "shortText": "3:18",
+                        "longText": "2 Peter 3:18",
+                        "verse": "18 But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and to the day of eternity. Amen."
+                    }
+                ]
+            },
+            {
+                "point": "There is one God, the Father, and one Lord, Jesus Christ",
+                "verses": [
+                    {
+                        "shortText": "1Cor.8:6",
+                        "longText": "1 Corinthians 8:6",
+                        "verse": "6 But there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist."
+                    },
+                    {
+                        "shortText": "Rom.1:17",
+                        "longText": "Romans 1:17",
+                        "verse": "17 For in him the whole fullness of deity dwells bodily,"
+                    },
+                    {
+                        "shortText": "1Cor.1:3",
+                        "longText": "1 Corinthians 1:3",
+                        "verse": "3 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "2Cor.1:2",
+                        "longText": "2 Corinthians 1:2",
+                        "verse": "2 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "Gal.1:3",
+                        "longText": "Galatians 1:3",
+                        "verse": "3 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "Eph.1:2",
+                        "longText": "Ephesians 1:2",
+                        "verse": "2 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "Phil.1:2",
+                        "longText": "Philippians 1:2",
+                        "verse": "2 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    },
+                    {
+                        "shortText": "Phm.1:3",
+                        "longText": "Philemon 1:3",
+                        "verse": "3 Grace to you and peace from God our Father and the Lord Jesus Christ."
+                    }
+                ]
+            },
+            {
+                "point": "Jesus Christ is not Yahweh (not God)",
+                "verses": [
+                    {
+                        "shortText": "Jn.17:3",
+                        "longText": "John 17:3",
+                        "verse": "3 And this is eternal life, that they may know you, the only true God, and Jesus Christ whom you have sent."
+                    },
+                    {
+                        "shortText": "Acts 7:55",
+                        "longText": "Acts 7:55",
+                        "verse": "55 But he, full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God."
+                    },
+                    {
+                        "shortText": "1Cor.11:3",
+                        "longText": "1 Corinthians 11:3",
+                        "verse": "3 But I want you to understand that Christ is the head of every man, and the man is the head of a woman, and God is the head of Christ."
+                    }
+                ]
+            },
+            {
+                "point": "Jesus Christ is man, the Son of Man, and the last Adam",
+                "verses": [
+                    {
+                        "shortText": "Acts 2:22",
+                        "longText": "Acts 2:22",
+                        "verse": "22 “Men of Israel, listen to these words: Jesus of Nazareth, a man attested to you by God with mighty works and wonders and signs that God did through him in your midst, as you yourselves know—"
+                    },
+                    {
+                        "shortText": "1Tim.2:5",
+                        "longText": "1 Timothy 2:5",
+                        "verse": "5 For there is one God and one mediator between God and men, the man Christ Jesus,"
+                    },
+                    {
+                        "shortText": "Mt.8:20",
+                        "longText": "Matthew 8:20",
+                        "verse": "20 And Jesus said to him, “The foxes have holes and the birds of the air have nests, but the Son of Man has nowhere to lay his head."
+                    },
+                    {
+                        "shortText": "Mk.14:62",
+                        "longText": "Mark 14:62",
+                        "verse": "62 And Jesus said, “I am; and you will see the Son of Man sitting at the right hand of Power, and coming with the clouds of heaven.”"
+                    },
+                    {
+                        "shortText": "Jn.8:28",
+                        "longText": "John 8:28",
+                        "verse": "28 So Jesus said to them, “When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own authority, but speak just as the Father taught me."
+                    },
+                    {
+                        "shortText": "1Cor.15:45",
+                        "longText": "1 Corinthians 15:45",
+                        "verse": "45 So it is written, “The first man, Adam, became a living being; the last Adam became a life-giving spirit.”"
+                    }
+                ]
+            },
+            {
+                "point": "Jesus Christ was conceived of the Holy Spirit and born of the virgin Mary. He suffered under Pontius Pilate; was crucified; died; buried; and was resurrected from the dead on the third day by the Father.",
+                "verses": [
+                    {
+                        "shortText": "Mt.1:18-25",
+                        "longText": "Matthew 1:18-25",
+                        "verse": "18 Now the birth of Jesus Christ[a] took place in this way. When his mother Mary had been betrothed[b] to Joseph, before they came together she was found to be with child from the Holy Spirit. 19 And her husband Joseph, being a just man and unwilling to put her to shame, resolved to divorce her quietly. 20 But as he considered these things, behold, an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, do not fear to take Mary as your wife, for that which is conceived in her is from the Holy Spirit. 21 She will bear a son, and you shall call his name Jesus, for he will save his people from their sins.” 22 All this took place to fulfill what the Lord had spoken by the prophet: 23 “Behold, the virgin shall conceive and bear a son, and they shall call his name Immanuel” (which means, God with us). 24 When Joseph woke from sleep, he did as the angel of the Lord commanded him: he took his wife, 25 but knew her not until she had given birth to a son. And he called his name Jesus."
+                    },
+                    {
+                        "shortText": "Lk.1:35",
+                        "longText": "Luke 1:35",
+                        "verse": "35 And the angel answered her, “The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy—the Son of God."
+                    },
+                    {
+                        "shortText": "Ps.22:1",
+                        "longText": "Psalm 22:1",
+                        "verse": "1 My God, my God, why have you forsaken me? Why are you so far from saving me, from the words of my groaning?"
+                    },
+                    {
+                        "shortText": "Isa.53:3-12",
+                        "longText": "Isaiah 53:3-12",
+                        "verse": "3 He was despised and rejected by mankind, a man of suffering, and familiar with pain. Like one from whom men hide their faces he was despised, and we esteemed him not. 4 Surely he has borne our griefs and carried our sorrows; yet we esteemed him stricken,smitten by God, and afflicted."
+                    },
+                    {
+                        "shortText": "Mt.27:22-50",
+                        "longText": "Matthew 27:22-50",
+                        "verse": "22 Pilate said to them, “Then what shall I do with Jesus who is called Christ?” They all said, “Let him be crucified!” 23 And he said, “Why? What evil has he done?” But they shouted all the more, “Let him be crucified!”"
+                    },
+                    {
+                        "shortText": "Acts 2:31-33",
+                        "longText": "Acts 2:31-33",
+                        "verse": "31 he foresaw and spoke about the resurrection of the Christ, that he was not abandoned to Hades, nor did his flesh see corruption. 32 This Jesus God raised up, and of that we all are witnesses. 33 Being therefore exalted at the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this that you yourselves are seeing and hearing."
+                    },
+                    {
+                        "shortText": "Rom.8:34",
+                        "longText": "Romans 8:34",
+                        "verse": "34 Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us."
+                    },
+                    {
+                        "shortText": "1Cor.6:14",
+                        "longText": "1 Corinthians 6:14",
+                        "verse": "14 And God raised the Lord and will also raise us up by his power."
+                    }
+                ]
+            },
+            {
+                "point": "Jesus Christ was exalted to the right hand of God, who made him Lord and Christ, and will come back to earth to establish God’s Kingdom and render God’s Judgment. He is lower than the Father and can do nothing apart from Him, yet has been exalted by God to be His plenipotentiary.",
+                "verses": [
+                    {
+                        "shortText": "1Pet.3:22",
+                        "longText": "1 Peter 3:22",
+                        "verse": "22 who has gone into heaven and is at the right hand of God, with angels, authorities, and powers having been subjected to him."
+                    },
+                    {
+                        "shortText": "Acts 2:36",
+                        "longText": "Acts 2:36",
+                        "verse": "36 Let all the house of Israel therefore know assuredly that God has made him both Lord and Christ, this Jesus whom you crucified."
+                    },
+                    {
+                        "shortText": "Rom.1:4",
+                        "longText": "Romans 1:4",
+                        "verse": "4 and was declared to be the Son of God in power according to the Spirit of holiness by his resurrection from the dead, Jesus Christ our Lord,"
+                    },
+                    {
+                        "shortText": "Mt.24:30",
+                        "longText": "Matthew 24:30",
+                        "verse": "30 Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory."
+                    },
+                    {
+                        "shortText": "Acts 1:11",
+                        "longText": "Acts 1:11",
+                        "verse": "11 “Men of Galilee, why do you stand looking into the sky? This same Jesus, who has been taken from you into heaven, will come back in the same way you have seen him go into heaven."
+                    },
+                    {
+                        "shortText": "Phil.3:20",
+                        "longText": "Philippians 3:20",
+                        "verse": "20 For our citizenship is in heaven, from which we also eagerly wait for the Savior, the Lord Jesus Christ,"
+                    },
+                    {
+                        "shortText": "Heb.9:28",
+                        "longText": "Hebrews 9:28",
+                        "verse": "28 so Christ was sacrificed once to take away the sins of many, and he will appear a second time, not to bear sin, but to bring salvation to those who eagerly await him."
+                    },
+                    {
+                        "shortText": "Jn.14:28",
+                        "longText": "John 14:28",
+                        "verse": "28 You heard me say, ‘I am going away and I am coming back to you.’ If you loved me, you would rejoice that I am going to the Father, for the Father is greater than I."
+                    },
+                    {
+                        "shortText": "5:19",
+                        "longText": "John 5:19",
+                        "verse": "19 So Jesus said to them, “Truly, truly, I say to you, the Son can do nothing of his own accord, but only what he sees the Father doing. For whatever the Father does, that the Son does likewise."
+                    },
+                    {
+                        "shortText": "6:57",
+                        "longText": "John 6:57",
+                        "verse": "57 As the living Father sent me, and I live because of the Father, so whoever feeds on me, he also will live because of me."
+                    },
+                    {
+                        "shortText": "12:49-50",
+                        "longText": "John 12:49-50",
+                        "verse": "49 For I have not spoken on my own authority, but the Father who sent me has himself given me a commandment—what to say and what to speak. 50 And I know that his commandment is eternal life. What I say, therefore, I say as the Father has told me.”"
+                    },
+                    {
+                        "shortText": "Acts 2:22",
+                        "longText": "Acts 2:22",
+                        "verse": "22 “Men of Israel, listen to these words: Jesus of Nazareth, a man attested to you by God with mighty works and wonders and signs that God did through him in your midst, as you yourselves know—"
+                    },
+                    {
+                        "shortText": "1Cor.11:3",
+                        "longText": "1 Corinthians 11:3",
+                        "verse": "3 But I want you to understand that Christ is the head of every man, and the man is the head of a woman, and God is the head of Christ."
+                    },
+                    {
+                        "shortText": "15:27-28",
+                        "longText": "1 Corinthians 15:27-28",
+                        "verse": "27 For “God has put all things in subjection under his feet.” But when it says, “all things are put in subjection,” it is plain that he is excepted who put all things in subjection under him. 28 When all things are subjected to him, then the Son himself will also be subjected"
+                    }
+                ]
+            },
+            {
+                "point": "Jesus Christ is the only Perfect Man, and the exact image of the invisible God",
+                "verses": [
+                    {
+                        "shortText": "Heb.2:10",
+                        "longText": "Hebrews 2:10",
+                        "verse": "10 For it was fitting that he, for whom and by whom all things exist, in bringing many sons to glory, should make the founder of their salvation perfect through sufferings."
+                    },
+                    {
+                        "shortText": "4:15",
+                        "longText": "Hebrews 4:15",
+                        "verse": "15 For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who has been tempted in every way, just as we are—yet was without sin."
+                    },
+                    {
+                        "shortText": "5:8-9",
+                        "longText": "Hebrews 5:8-9",
+                        "verse": "8 Although he was a son, he learned obedience through what he suffered. 9 And being made perfect, he became the source of eternal salvation to all who obey him,"
+                    },
+                    {
+                        "shortText": "7:28",
+                        "longText": "Hebrews 7:28",
+                        "verse": "28 For the law appoints men in their weakness as high priests, but the word of the oath, which came later than the law, appoints a Son who has been made perfect forever."
+                    },
+                    {
+                        "shortText": "Col.1:15",
+                        "longText": "Colossians 1:15",
+                        "verse": "15 He is the image of the invisible God, the firstborn over all creation."
+                    },
+                    {
+                        "shortText": "2Cor.4:4",
+                        "longText": "2 Corinthians 4:4",
+                        "verse": "4 In their case the god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the gospel of the glory of Christ, who is the image of God."
+                    },
+                    {
+                        "shortText": "Jn.14:9",
+                        "longText": "John 14:9",
+                        "verse": "9 Jesus said to him, “Have I been with you so long, and you still do not know me, Philip? Whoever has seen me has seen the Father. How can you say, 'Show us the Father'?"
+                    },
+                    {
+                        "shortText": "Phil.2:6",
+                        "longText": "Philippians 2:6",
+                        "verse": "6 who, though he was in the form of God, did not count equality with God a thing to be grasped,"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Salvation",
+        "points": [
+            {
+                "point": "There is one God, and there is one mediator between God and men, the man Christ Jesus",
+                "verses": [
+                    {
+                        "shortText": "1Tim.2:5",
+                        "longText": "1 Timothy 2:5",
+                        "verse": "5 For there is one God and one mediator between God and men, the man Christ Jesus,"
+                    },
+                    {
+                        "shortText": "Jn.14:6",
+                        "longText": "John 14:6",
+                        "verse": "6 Jesus said to him, “I am the way, and the truth, and the life. No one comes to the Father except through me."
+                    },
+                    {
+                        "shortText": "Rom.5:19",
+                        "longText": "Romans 5:19",
+                        "verse": "19 For as by one man’s disobedience many were made sinners, so also by one Man’s obedience many will be made righteous."
+                    },
+                    {
+                        "shortText": "Heb.8:6",
+                        "longText": "Hebrews 8:6",
+                        "verse": "6 But as it is, Christ has obtained a ministry that is as much more excellent than the old as the covenant he mediates is better, since it is enacted on better promises."
+                    }
+                ]
+            },
+            {
+                "point": "Jesus is the way of salvation, the Lamb of God who was slain to take away the sins of the world",
+                "verses": [
+                    {
+                        "shortText": "Mt.1:21",
+                        "longText": "Matthew 1:21",
+                        "verse": "21 And she will bring forth a son, and you shall call his name Jesus, for he will save his people from their sins."
+                    },
+                    {
+                        "shortText": "Acts 4:12",
+                        "longText": "Acts 4:12",
+                        "verse": "12 And there is salvation in no one else, for there is no other name under heaven that has been given among men by which we must be saved."
+                    },
+                    {
+                        "shortText": "Jn.1:29",
+                        "longText": "John 1:29",
+                        "verse": "29 The next day John saw Jesus coming toward him, and said, “Behold, the Lamb of God, who takes away the sin of the world!"
+                    },
+                    {
+                        "shortText": "Rev.13:8",
+                        "longText": "Revelation 13:8",
+                        "verse": "8 And all who dwell on the earth will worship him, everyone whose name has not been written from the foundation of the world in the book of life of the Lamb that was slain."
+                    }
+                ]
+            },
+            {
+                "point": "Man is created in the image of God; man has fallen into sin and is redeemed through the blood of Jesus Christ",
+                "verses": [
+                    {
+                        "shortText": "Gen.1:27",
+                        "longText": "Genesis 1:27",
+                        "verse": "27 So God created man in his own image, in the image of God he created him; male and female he created them."
+                    },
+                    {
+                        "shortText": "Isa.59:2",
+                        "longText": "Isaiah 59:2",
+                        "verse": "2 But your iniquities have separated you from your God; your sins have hidden his face from you, so that he will not hear."
+                    },
+                    {
+                        "shortText": "Rom.3:23",
+                        "longText": "Romans 3:23",
+                        "verse": "23 for all have sinned and fall short of the glory of God,"
+                    },
+                    {
+                        "shortText": "5:12",
+                        "longText": "Romans 5:12",
+                        "verse": "12 Therefore, just as through one man sin entered the world, and death through sin, and thus death spread to all men, because all sinned—"
+                    },
+                    {
+                        "shortText": "John 3:16",
+                        "longText": "John 3:16",
+                        "verse": "16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+                    },
+                    {
+                        "shortText": "Eph.1:7",
+                        "longText": "Ephesians 1:7",
+                        "verse": "7 In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,"
+                    },
+                    {
+                        "shortText": "Titus 2:14",
+                        "longText": "Titus 2:14",
+                        "verse": "14 who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession, zealous for good works."
+                    }
+                ]
+            },
+            {
+                "point": "God dwelled (tabernacled) in Jesus Christ, the temple of God, such that all the fullness of God dwells in him bodily; as a result, God is in Christ reconciling the world to Himself",
+                "verses": [
+                    {
+                        "shortText": "Jn.1:14",
+                        "longText": "John 1:14",
+                        "verse": "14 And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth."
+                    },
+                    {
+                        "shortText": "2:19-21",
+                        "longText": "John 2:19-21",
+                        "verse": "19 Jesus answered them, “Destroy this temple, and in three days I will raise it up.” 20 The Jews then said, “It has taken forty-six years to build this temple, and will you raise it up in three days?” 21 But he was speaking about the temple of his body."
+                    },
+                    {
+                        "shortText": "2Cor.5:19",
+                        "longText": "2 Corinthians 5:19",
+                        "verse": "19 that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting to us the message of reconciliation."
+                    },
+                    {
+                        "shortText": "Col.1:19",
+                        "longText": "Colossians 1:19",
+                        "verse": "19 For in him all the fullness of God was pleased to dwell,"
+                    },
+                    {
+                        "shortText": "2:9",
+                        "longText": "Colossians 2:9",
+                        "verse": "9 For in him the whole fullness of deity dwells bodily,"
+                    }
+                ]
+            },
+            {
+                "point": "Saving faith is inseparable from the obedience of faith, expressed in total commitment and faithfulness to God",
+                "verses": [
+                    {
+                        "shortText": "Rom.1:5",
+                        "longText": "Romans 1:5",
+                        "verse": "5 Through him we have received grace and apostleship to bring about the obedience of faith for the sake of his name among all the nations,"
+                    },
+                    {
+                        "shortText": "16:26",
+                        "longText": "Romans 16:26",
+                        "verse": "26 but has now been disclosed and through the prophetic writings has been made known to all nations, according to the command of the eternal God, to bring about the obedience of faith—"
+                    },
+                    {
+                        "shortText": "Mt.7:21",
+                        "longText": "Matthew 7:21",
+                        "verse": "21 “Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven."
+                    },
+                    {
+                        "shortText": "Heb.11:8",
+                        "longText": "Hebrews 11:8",
+                        "verse": "8 By faith Abraham obeyed when he was called to go out to a place that he was to receive as an inheritance. And he went out, not knowing where he was going."
+                    },
+                    {
+                        "shortText": "James 2:17",
+                        "longText": "James 2:17",
+                        "verse": "17 So also faith by itself, if it does not have works, is dead."
+                    },
+                    {
+                        "shortText": "2:26",
+                        "longText": "James 2:26",
+                        "verse": "26 For just as the body without the spirit is dead, so also faith without works is dead."
+                    },
+                    {
+                        "shortText": "1Jn.3:9",
+                        "longText": "1 John 3:9",
+                        "verse": "9 Whoever has been born of God does not sin, for his seed remains in him; and he cannot sin, because he has been born of God."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "The Church",
+        "points": [
+            {
+                "point": "The Church (universal) is the body of Christ and the temple of God, composed of the redeemed in Christ, with Christ as the head of the body",
+                "verses": [
+                    {
+                        "shortText": "1Cor.12:27",
+                        "longText": "1 Corinthians 12:27",
+                        "verse": "27 Now you are the body of Christ, and members individually."
+                    },
+                    {
+                        "shortText": "Eph.5:23",
+                        "longText": "Ephesians 5:23",
+                        "verse": "23 For the husband is the head of the wife even as Christ is the head of the church, his body, and is himself its Savior."
+                    },
+                    {
+                        "shortText": "Col.1:18",
+                        "longText": "Colossians 1:18",
+                        "verse": "18 And he is the head of the body, the church, who is the beginning, the firstborn from the dead, that in all things he might have the preeminence."
+                    },
+                    {
+                        "shortText": "1:24",
+                        "longText": "Colossians 1:24",
+                        "verse": "24 Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ's afflictions for the sake of his body, that is, the church,"
+                    },
+                    {
+                        "shortText": "1Cor.3:16-17",
+                        "longText": "1 Corinthians 3:16-17",
+                        "verse": "16 Do you not know that you are God's temple and that God's Spirit dwells in you? 17 If anyone destroys God's temple, God will destroy him. For God's temple is holy, and you are that temple."
+                    },
+                    {
+                        "shortText": "6:19",
+                        "longText": "1 Corinthians 6:19",
+                        "verse": "19 Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God, and that you are not your own?"
+                    }
+                ]
+            },
+            {
+                "point": "In one Spirit we are baptized into one body, and made to drink of one Spirit",
+                "verses": [
+                    {
+                        "shortText": "1Cor.12:13",
+                        "longText": "1 Corinthians 12:13",
+                        "verse": "13 For by one Spirit we were all baptized into one body—whether Jews or Greeks, slave or free—and have all been made to drink of one Spirit."
+                    }
+                ]
+            },
+            {
+                "point": "There are two sacraments of the Church: baptism and the Holy Communion",
+                "verses": [
+                    {
+                        "shortText": "Acts 2:38",
+                        "longText": "Acts 2:38",
+                        "verse": "38 And Peter said to them, “Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit."
+                    },
+                    {
+                        "shortText": "8:12",
+                        "longText": "1 Corinthians 8:12",
+                        "verse": "12 But when they believed Philip as he preached good news about the kingdom of God and the name of Jesus Christ, they were baptized, both men and women."
+                    },
+                    {
+                        "shortText": "Rom.6:3-4",
+                        "longText": "Romans 6:3-4",
+                        "verse": "3 Or do you not know that as many of us as were baptized into Christ Jesus were baptized into his death? 4 Therefore we were buried with him through baptism into death, in order that, just as Christ was raised from the dead through the glory of the Father, we too might walk in newness of life."
+                    },
+                    {
+                        "shortText": "1Cor.12:13",
+                        "longText": "1 Corinthians 12:13",
+                        "verse": "13 For by one Spirit we were all baptized into one body—whether Jews or Greeks, slave or free—and have all been made to drink of one Spirit."
+                    },
+                    {
+                        "shortText": "Eph.4:5",
+                        "longText": "Ephesians 4:5",
+                        "verse": "5 one Lord, one faith, one baptism,"
+                    },
+                    {
+                        "shortText": "1Pet.3:21",
+                        "longText": "1 Peter 3:21",
+                        "verse": "21 which corresponds to baptism, not the removal of the filth of the flesh, but the answer of a good conscience toward God, through the resurrection of Jesus Christ,"
+                    },
+                    {
+                        "shortText": "Mt.26:26-28",
+                        "longText": "Matthew 26:26-28",
+                        "verse": "26 As they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” 27 And he took the cup, and when he had given thanks he gave it to them, saying, “Drink from it, all of you. 28 For this is my blood of the covenant, which is poured out for many for the forgiveness of sins."
+                    },
+                    {
+                        "shortText": "Mk.14:22-24",
+                        "longText": "Mark 14:22-24",
+                        "verse": "22 And as they were eating, Jesus took bread, and blessed and broke it, and gave it to them, and said, “Take, eat; this is my body.” 23 And he took the cup, and when he had given thanks he gave it to them, and they all drank of it. 24 And he said to them, “This is my blood of the covenant, which is poured out for many."
+                    },
+                    {
+                        "shortText": "Lk.22:19-20",
+                        "longText": "Luke 22:19-20",
+                        "verse": "19 And he took bread, and when he had given thanks he broke it and gave it to them, saying, “This is my body, which is given for you; do this in remembrance of me.” 20 In the same way also the cup, after they had eaten, saying, “This cup that is poured out for you is the new covenant in my blood."
+                    },
+                    {
+                        "shortText": "1Cor.11:23-26",
+                        "longText": "1 Corinthians 11:23-26",
+                        "verse": "23 For I received from the Lord what I also passed on to you: The Lord Jesus, on the night he was betrayed, took bread, 24 and when he had given thanks, he broke it and said, “Take, eat; this is my body, which is for you; do this in remembrance of me.” 25 In the same way, after supper he took the cup, saying, “This cup is the new covenant in my blood; do this, as often as you drink it, in remembrance of me.” 26 For as often as you eat this bread and drink the cup, you proclaim the Lord’s death until he comes."
+                    }
+                ]
+            },
+            {
+                "point": "We worship Yahweh alone",
+                "verses": [
+                    {
+                        "shortText": "Ex.20:3",
+                        "longText": "Exodus 20:3",
+                        "verse": "3 “You shall have no other gods before me."
+                    },
+                    {
+                        "shortText": "34:14",
+                        "longText": "Exodus 34:14",
+                        "verse": "14 “For you shall worship no other god, for the LORD, whose name is Jealous, is a jealous God,"
+                    },
+                    {
+                        "shortText": "Mt.4:10",
+                        "longText": "Matthew 4:10",
+                        "verse": "10 Jesus said to him, “Away with you, Satan! For it is written, “‘You shall worship the LORD your God, and him only you shall serve.’”"
+                    },
+                    {
+                        "shortText": "Dt.6:13",
+                        "longText": "Deuteronomy 6:13",
+                        "verse": "13 You shall fear the LORD your God, and him only shall you serve, and to him shall you cleave, and in his name shall you swear."
+                    },
+                    {
+                        "shortText": "8:19",
+                        "longText": "Deuteronomy 8:19",
+                        "verse": "19 And if you forget the Lord your God and go after other gods and serve them and worship them, I solemnly warn you today that you shall surely perish."
+                    },
+                    {
+                        "shortText": "Jer.25:6",
+                        "longText": "Jeremiah 25:6",
+                        "verse": "6 Do not go after other gods to serve and worship them, or provoke me to anger with the work of your hands. Then I will do you no harm."
+                    }
+                ]
+            },
+            {
+                "point": "The mission of the Church is to make disciples of all nations, baptizing them and teaching them to obey all the commands of the Lord Jesus Christ",
+                "verses": [
+                    {
+                        "shortText": "Mt.28:19-20",
+                        "longText": "Matthew 28:19-20",
+                        "verse": "19 Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, 20 teaching them to observe all that I have commanded you; and lo, I am with you always, to the end of the age."
+                    },
+                    {
+                        "shortText": "1Tim.3:15",
+                        "longText": "1 Timothy 3:15",
+                        "verse": "15 if I delay, you may know how one ought to behave in the household of God, which is the church of the living God, a pillar and buttress of the truth."
+                    }
                 ]
             }
         ]
