@@ -26,14 +26,14 @@ const CustomTab = ({ statementOfFaith }) => {
     ]
 
     return (
-        <Tabs defaultValue={tabs[0].value} className="py-20 px-8">
-            <TabsList className="grid w-full grid-cols-2">
+        <Tabs defaultValue={tabs[0].value} className="py-20 px-8 flex flex-col justify-center items-center">
+            <TabsList className="grid w-full grid-cols-2 max-w-[1000px]">
                 {tabs.map((tab, index) => (
                     <TabsTrigger key={index} value={tab.value}>{tab.title}</TabsTrigger>
                 ))}
             </TabsList>
             {tabs.map((tab, index) => (
-                <TabsContent key={index} value={tab.value}>
+                <TabsContent key={index} value={tab.value} className="flex justify-center items-center">
                     {tab.content}
                 </TabsContent>
             ))}
