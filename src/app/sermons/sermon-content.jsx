@@ -1,9 +1,7 @@
 "use client"
 
 import { LinkPreview } from '@/components/ui/link-preview';
-import { HoverEffect } from '@/components/ui/card-hover-effect';
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const SermonContent = ({ sermons }) => {
@@ -20,9 +18,6 @@ const SermonContent = ({ sermons }) => {
                                 <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight pb-2">
                                     {sermon.language}
                                 </h3>
-                                {/* <div className="max-w-5xl mx-auto px-8">
-                                    <HoverEffect items={sermon.sermons} />
-                                </div> */}
                                 <div className='flex gap-4 flex-wrap'>
                                     {sermon.sermons.map((message, index) => (
                                         sermon.language === "English" ? (
