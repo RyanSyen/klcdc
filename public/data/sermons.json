@@ -1,0 +1,52 @@
+[
+    {
+      "language": "English",
+      "sermons": [
+        {
+          "title": "Baptism and the New Life in Christ",
+          "desc": "The Practical Meaning of Baptism in the New Testament",
+          "link": "https://www.christiandiscipleschurch.org/content/baptism",
+          "imageUrl": "https://plus.unsplash.com/premium_photo-1682372665112-799f99a92454?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "title": "The Spiritual Direction of Life",
+          "desc": "Exploring how to align our lives with God's purpose and guidance",
+          "link": "https://www.christiandiscipleschurch.org/content/baptism",
+          "imageUrl": "https://images.unsplash.com/photo-1470472304068-4398a9daab00?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "title": "Sermon on the Mount",
+          "desc": "Exploring the teachings of Jesus Christ in the Sermon on the Mount",
+          "link": "https://www.christiandiscipleschurch.org/content/sermon-mount",
+          "imageUrl": "https://images.unsplash.com/photo-1616863746120-6f1fff438494?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+          "title": "Parables",
+          "desc": "Exploring the teachings of Jesus Christ in the Parables",
+          "link": "https://www.christiandiscipleschurch.org/content/parables",
+          "imageUrl": "https://plus.unsplash.com/premium_photo-1664006989152-e70f1d14a9b3?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+      ]
+    },
+    {
+      "language": "Chinese",
+      "sermons": [
+        {
+          "title": "福音电台",
+          "desc": "FYDT 福音电台",
+          "link": "https://fydt.org/"
+        }
+      ]
+    },
+    {
+      "language": "Indonesian",
+      "sermons": [
+        {
+          "title": "Cahaya Pengharapan",
+          "desc": "CAHAYA PENGHARAPAN MINISTRIES",
+          "link": "https://cahayapengharapan.org/"
+        }
+      ]
+    }
+  ]
+  
