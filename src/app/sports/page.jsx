@@ -60,7 +60,7 @@ const BadmintonContent = () => {
         <CardContent className="space-y-2">
           <section className="py-4">
             <div>
-              <Image src={"/sports/badminton.png"} width={960} height={540} alt="badminton" />
+              <Image src={"/sports/badminton.png"} width={960} height={540} alt="badminton" priority />
             </div>
             <div className="flex flex-col py-4">
               <h3 className="scroll-m-20 text-xl tracking-tight font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">VENUE</h3>
