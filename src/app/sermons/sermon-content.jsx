@@ -26,8 +26,8 @@ const SermonContent = ({ sermons }) => {
                                 <div className='flex gap-4 flex-wrap'>
                                     {sermon.sermons.map((message, index) => (
                                         sermon.language === "English" ? (
-                                            <Link href={message.link} target='_blank'>
-                                                <div key={message.title} className="max-w-xs w-full group/card">
+                                            <Link key={message.title} href={message.link} target='_blank'>
+                                                <div className="max-w-xs w-full group/card">
                                                     <div
                                                         className={cn(
                                                             "cursor-pointer overflow-hidden relative card h-80 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
