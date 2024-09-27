@@ -4,6 +4,7 @@ import { LinkPreview } from '@/components/ui/link-preview';
 import { HoverEffect } from '@/components/ui/card-hover-effect';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const SermonContent = ({ sermons }) => {
     return (
@@ -25,26 +26,28 @@ const SermonContent = ({ sermons }) => {
                                 <div className='flex gap-4 flex-wrap'>
                                     {sermon.sermons.map((message, index) => (
                                         sermon.language === "English" ? (
-
-                                            <div key={message.title} className="max-w-xs w-full group/card">
-                                                <div
-                                                    className={cn(
-                                                        "cursor-pointer overflow-hidden relative card h-80 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
-                                                        `bg-cover`
-                                                    )}
-                                                    style={{ backgroundImage: `url(${message.imageUrl})` }}
-                                                >
-                                                    <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
-                                                    <div className="text content">
-                                                        <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                                                            {message.title}
-                                                        </h1>
-                                                        <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                                                            {message.desc}
-                                                        </p>
+                                            <Link href={message.link} target='_blank'>
+                                                <div key={message.title} className="max-w-xs w-full group/card">
+                                                    <div
+                                                        className={cn(
+                                                            "cursor-pointer overflow-hidden relative card h-80 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
+                                                            `bg-cover`
+                                                        )}
+                                                        style={{ backgroundImage: `url(${message.imageUrl})` }}
+                                                    >
+                                                        <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
+                                                        <div className="text content">
+                                                            <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
+                                                                {message.title}
+                                                            </h1>
+                                                            <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
+                                                                {message.desc}
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </Link>
+
 
                                         ) : (
                                             <div key={message.title} className="p-4 rounded-lg shadow-md">
