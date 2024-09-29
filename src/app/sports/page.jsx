@@ -67,7 +67,7 @@ const BadmintonContent = () => {
               <div className="flex items-center gap-4">
                 <h3 className="scroll-m-20 text-lg font-semibold tracking-tight">KOMPLEKS 3K MPSJ Serdang Raya
                 </h3>
-                <Link href={"https://maps.app.goo.gl/t848gF43BBWM1tgXA"}><Image src="/sports/google-maps.png" height={24} width={24} alt="Google Maps" /></Link>
+                <Link href={"https://maps.app.goo.gl/t848gF43BBWM1tgXA"} target="_blank"><Image src="/sports/google-maps.png" height={24} width={24} alt="Google Maps" /></Link>
               </div>
 
               <p>Hosted by Ryan</p>
