@@ -1,18 +1,24 @@
 [
-  {
-    "title": "Mooncake Festival Celebration",
-    "desc": "Mooncake Festival after lunch at church",
-    "imgUrl": "/events/mooncake-festival.jpg",
-    "ctaText": "View Poster",
-    "ctaLink": "/",
-    "date": "8/9/2024"
-  },
-  {
-    "title": "Church Retreat",
-    "desc": "Church Retreat (KL x Setapak CDC) 2024",
-    "imgUrl": "/events/pd-retreat.jpg",
-    "ctaText": "View Poster",
-    "ctaLink": "/",
-    "date": "21/9/2024"
-  }
+    {
+        "title": "2024",
+        "subtitle": "Sept 2024",
+        "paragraphs": [
+            "Church Retreat: Long Sands, Port Dickson"
+        ],
+        "images": [
+            "/events/pd_retreat/pd-retreat.jpg",
+            "/events/pd_retreat/sea_view.jpg",
+            "/events/pd_retreat/hiking.jpg",
+            "/events/pd_retreat/picnic_by_the_beach.jpg",
+            "/events/pd_retreat/dinner1.jpg",
+            "/events/pd_retreat/dinner2.jpg",
+            "/events/pd_retreat/dinner3.jpg",
+            "/events/pd_retreat/dinner4.jpg",
+            "/events/pd_retreat/dinner5.jpg",
+            "/events/pd_retreat/dinner6.jpg",
+            "/events/pd_retreat/morning_sunrise.jpg",
+            "/events/pd_retreat/morning_sunrise2.jpg",
+            "/events/pd_retreat/checkout.jpg"
+        ]
+    }
 ]

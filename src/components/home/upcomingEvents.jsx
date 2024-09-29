@@ -4,7 +4,7 @@ import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
 const UpcomingEvents = async () => {
-  const file = await fs.readFile('public/data/events.json', 'utf8');
+  const file = await fs.readFile('public/data/upcoming_events.json', 'utf8');
   const data = JSON.parse(file);
   const cards = data.map((card, index) => (
     <Card key={card.imgUrl} card={card} index={index} layout={true} />
