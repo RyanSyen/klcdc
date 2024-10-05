@@ -99,7 +99,7 @@ const MeetingTimesCard = ({ data, index }) => {
               </div>
               {data.actionLink && (
                 <div className="pt-2 md:pt-0 flex justify-end">
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="z-10">
                     <Link className="" href={data.actionLink}>
                       {data.actionTitle}
                     </Link>

@@ -42,8 +42,6 @@ const SermonContent = ({ sermons }) => {
                                                     </div>
                                                 </div>
                                             </Link>
-
-
                                         ) : (
                                             <div key={message.title} className="p-4 rounded-lg shadow-md">
                                                 <LinkPreview url={message.link}
