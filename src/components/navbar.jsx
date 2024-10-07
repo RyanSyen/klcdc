@@ -147,7 +147,7 @@ const MobileNavbar = () => {
         <Image src={"/icon/logo.png"} width={48} height={48} alt="klcdc logo" />              </HoveredLink>
       <Sheet>
         <SheetTrigger asChild>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000" className="bi bi-list cursor-pointer" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000" className="bi bi-list cursor-pointer" viewBox="0 0 16 16" role="button" aria-label="hamburger menu">
               <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
             </svg>
         </SheetTrigger>

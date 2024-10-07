@@ -124,6 +124,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollLeft}
             disabled={!canScrollLeft}
+            aria-label="Scroll left"
           >
             <IconArrowNarrowLeft className="h-6 w-6 text-gray-500" />
           </button>
@@ -131,6 +132,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollRight}
             disabled={!canScrollRight}
+            aria-label="Scroll right"
           >
             <IconArrowNarrowRight className="h-6 w-6 text-gray-500" />
           </button>
@@ -215,7 +217,7 @@ export const Card = ({ card, index, layout = false }) => {
                   src={card.imgUrl}
                   width={600} // Example width
                   height={1200} // 2:3 aspect ratio (400 width, 600 height)
-                  alt={card.title}
+                  alt={`image of ${card.title}`}
                 />
               </div>
             </motion.div>
