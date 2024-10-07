@@ -63,23 +63,21 @@ const BadmintonContent = () => {
               <Image src={"/sports/badminton.png"} width={960} height={540} alt="badminton" priority />
             </div>
             <div className="flex flex-col py-4">
-              <h3 className="scroll-m-20 text-xl tracking-tight font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">VENUE</h3>
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">VENUE</h3>
               <div className="flex items-center gap-4">
-                <h3 className="scroll-m-20 text-lg font-semibold tracking-tight">KOMPLEKS 3K MPSJ Serdang Raya
+                <h3 className="scroll-m-20 text-lg tracking-tight">KOMPLEKS 3K MPSJ Serdang Raya
                 </h3>
                 <Link href={"https://maps.app.goo.gl/t848gF43BBWM1tgXA"} target="_blank"><Image src="/sports/google-maps.png" height={24} width={24} alt="Google Maps" /></Link>
               </div>
-
               <p>Hosted by Ryan</p>
             </div>
             <div className="flex flex-col py-4">
-              <h3 className="scroll-m-20 text-xl tracking-tight font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">DATE & TIME</h3>
-              <h3 className="scroll-m-20 text-lg font-semibold tracking-tight">Every Sunday
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">DATE & TIME</h3>
+              <h3 className="scroll-m-20 tracking-tight">Every Sunday 4:00PM - 6:00PM
               </h3>
-              <p>4:00PM - 6:00PM</p>
             </div>
             <div className="flex flex-col py-4">
-              <h3 className="scroll-m-20 text-xl tracking-tight font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500">CONTACT</h3>
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">CONTACT</h3>
               <p>Call or Whatsapp Ryan at 01112836502 if you have any questions. Thank you.
               </p>
             </div>
@@ -122,7 +120,7 @@ const OthersContent = () => {
         </CardHeader>
         <CardContent className="space-y-2">
           <section className="">
-            <div className="max-w-5xl mx-auto px-8">
+            <div className="max-w-5xl mx-auto">
               <HoverEffect items={others} />
             </div>
           </section>

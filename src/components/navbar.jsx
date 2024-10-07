@@ -142,7 +142,7 @@ export const HoveredLink = ({ children, ...rest }) => {
 
 const MobileNavbar = () => {
   return (
-    <div className="md:hidden flex justify-between items-center p-2 bg-background/95 supports-[backdrop-filter]:bg-background/60 fixed inset-x-0 backdrop-blur">
+    <div className="md:hidden flex justify-between items-center p-2 bg-background/95 supports-[backdrop-filter]:bg-background/60 fixed inset-x-0 backdrop-blur z-[40]">
       <HoveredLink href="/" >
         <Image src={"/icon/logo.png"} width={48} height={48} alt="klcdc logo" />              </HoveredLink>
       <Sheet>

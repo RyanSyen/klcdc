@@ -10,7 +10,7 @@ const Banner = () => {
   const words = ["GROW", "PRAY", "LEARN", "EXPERIENCE", "WORSHIP", "CELEBRATE"];
 
   return (
-    <div className="h-96 lg:h-[100vh] relative">
+    <div className="h-[24rem] md:h-[100vh] relative">
       <div className="relative w-full h-full">
         <Image
           className="object-cover"

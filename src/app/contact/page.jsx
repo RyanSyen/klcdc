@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="pt-8">
           <h2 className="scroll-m-20 pb-4 text-3xl font-semibold tracking-tight first:mt-0">Contact Us</h2>
         </div>
-        <div className="grid grid-cols-[repeat(auto-fill,24rem)] gap-1">
+        <div className="grid grid-cols-[repeat(auto-fit, minmax(16rem, 24rem))] gap-1">
           <Card>
             <CardHeader>
               <MessageCircleMore width={64} height={64} />
