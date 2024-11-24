@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetClose,
@@ -14,11 +14,11 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 
 import { cn } from "@/lib/utils";
 
-import { LinkPreview } from '@/components/ui/link-preview';
+import { LinkPreview } from "@/components/ui/link-preview";
 
 // source: https://ui.aceternity.com/components/navbar-menu
 
@@ -134,7 +134,10 @@ export const ProductItem = ({ title, description, href, src }) => {
 
 export const HoveredLink = ({ children, ...rest }) => {
   return (
-    <Link {...rest} className={cn("text-slate-900 text-sm hover:underline ", rest.className)} >
+    <Link
+      {...rest}
+      className={cn("text-slate-900 text-sm hover:underline ", rest.className)}
+    >
       {children}
     </Link>
   );
@@ -143,21 +146,36 @@ export const HoveredLink = ({ children, ...rest }) => {
 const MobileNavbar = () => {
   return (
     <div className="md:hidden flex justify-between items-center p-2 bg-background/95 supports-[backdrop-filter]:bg-background/60 fixed inset-x-0 backdrop-blur z-[40]">
-      <HoveredLink href="/" >
-        <Image src={"/icon/logo.png"} width={48} height={48} alt="klcdc logo" />              </HoveredLink>
+      <HoveredLink href="/">
+        <Image src={"/icon/logo.png"} width={48} height={48} alt="klcdc logo" />{" "}
+      </HoveredLink>
       <Sheet>
         <SheetTrigger asChild>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000" className="bi bi-list cursor-pointer" viewBox="0 0 16 16" role="button" aria-label="hamburger menu">
-              <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-            </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="#000"
+            className="bi bi-list cursor-pointer"
+            viewBox="0 0 16 16"
+            role="button"
+            aria-label="hamburger menu"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
         </SheetTrigger>
         <SheetContent className="overflow-auto">
           <SheetHeader className="flex flex-col items-center py-4 text-left">
-            <SheetTitle className="text-xl font-bold">Christian Disciples Church Kuala Lumpur</SheetTitle>
+            <SheetTitle className="text-xl font-bold">
+              Christian Disciples Church Kuala Lumpur
+            </SheetTitle>
           </SheetHeader>
           <div className="flex flex-col gap-4">
             <SheetClose asChild>
-              <HoveredLink href="/" className="border-b border-black py-4" >
+              <HoveredLink href="/" className="border-b border-black py-4">
                 Home
               </HoveredLink>
             </SheetClose>
@@ -167,32 +185,50 @@ const MobileNavbar = () => {
               </HoveredLink>
             </SheetClose>
             <SheetClose asChild>
-              <HoveredLink href="/sermons" className="border-b border-black py-4">
-                Sermons
-              </HoveredLink>
-            </SheetClose>
-            <SheetClose asChild>
-              <HoveredLink href="/testimonies" className="border-b border-black py-4">
-                Testimonies
-              </HoveredLink>
-            </SheetClose>
-            <SheetClose asChild>
-              <HoveredLink href="/sports" className="border-b border-black py-4">
-                Sports
-              </HoveredLink>
-            </SheetClose>
-            <SheetClose asChild>
-              <HoveredLink href="/events" className="border-b border-black py-4">
-                Events
-              </HoveredLink>
-            </SheetClose>
-            <SheetClose asChild>
-              <HoveredLink href="/join-us" className="border-b border-black py-4">
+              <HoveredLink
+                href="/join-us"
+                className="border-b border-black py-4"
+              >
                 Join Us
               </HoveredLink>
             </SheetClose>
             <SheetClose asChild>
-              <HoveredLink href="/contact" className="border-b border-black py-4">
+              <HoveredLink
+                href="/sermons"
+                className="border-b border-black py-4"
+              >
+                Sermons
+              </HoveredLink>
+            </SheetClose>
+            <SheetClose asChild>
+              <HoveredLink
+                href="/testimonies"
+                className="border-b border-black py-4"
+              >
+                Testimonies
+              </HoveredLink>
+            </SheetClose>
+            <SheetClose asChild>
+              <HoveredLink
+                href="/sports"
+                className="border-b border-black py-4"
+              >
+                Sports
+              </HoveredLink>
+            </SheetClose>
+            <SheetClose asChild>
+              <HoveredLink
+                href="/events"
+                className="border-b border-black py-4"
+              >
+                Events
+              </HoveredLink>
+            </SheetClose>
+            <SheetClose asChild>
+              <HoveredLink
+                href="/contact"
+                className="border-b border-black py-4"
+              >
                 Contact Us
               </HoveredLink>
             </SheetClose>
@@ -208,9 +244,8 @@ const MobileNavbar = () => {
           </LinkPreview>
         </SheetFooter> */}
         </SheetContent>
-      </Sheet >
+      </Sheet>
     </div>
-
   );
 };
 
@@ -250,10 +285,16 @@ const Navbar = () => {
             <HoveredLink href="/about" onMouseEnter={() => setActive(null)}>
               About Us
             </HoveredLink>
+            <HoveredLink href="/join-us" onMouseEnter={() => setActive(null)}>
+              Join Us
+            </HoveredLink>
             <HoveredLink href="/sermons" onMouseEnter={() => setActive(null)}>
               Sermons
             </HoveredLink>
-            <HoveredLink href="/testimonies" onMouseEnter={() => setActive(null)}>
+            <HoveredLink
+              href="/testimonies"
+              onMouseEnter={() => setActive(null)}
+            >
               Testimonies
             </HoveredLink>
             <HoveredLink href="/sports" onMouseEnter={() => setActive(null)}>
@@ -261,31 +302,6 @@ const Navbar = () => {
             </HoveredLink>
             <HoveredLink href="/events" onMouseEnter={() => setActive(null)}>
               Events
-            </HoveredLink>
-            <HoveredLink href="/join-us" onMouseEnter={() => setActive(null)}>
-              {/* <MenuItem setActive={setActive} active={active} item="Join Us">
-                <div className="text-sm grid grid-cols-2 gap-10 p-4">
-                  <ProductItem
-                    title="Sunday Service"
-                    href="/sunday-service"
-                    src="/navbar/service.jpg"
-                    description="Let's gather in His name this Sunday."
-                  />
-                  <ProductItem
-                    title="Youth Corner"
-                    href="/youth-corner"
-                    src="/navbar/youth-corner.png"
-                    description="Growing the next generations."
-                  />
-                  <ProductItem
-                    title="Bible Studies"
-                    href="/bible-study"
-                    src="/navbar/bible-study.jpg"
-                    description="Learning and deepening our faith through scripture."
-                  />
-                </div>
-              </MenuItem> */}
-              Join Us
             </HoveredLink>
             <HoveredLink href="/contact" onMouseEnter={() => setActive(null)}>
               Contact Us
