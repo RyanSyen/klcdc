@@ -1,43 +1,58 @@
 [
     {
-        "title": "2024",
-        "subtitle": "Dec 2024",
-        "paragraphs": [
-            "English Corner Retreat: Tanjung Sepat"
-        ],
-        "images": [
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.33 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.43 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.14.01 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.14.15 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.17.00 PM (1).jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.17.00 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.18.38 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.19.24 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.21.48 PM.jpeg",
-            "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.40.07 PM.jpeg"
+        "title": "Dec 2024",
+        "subtitle": "December 2024",
+        "content": [
+            {
+                "event": "English Corner Retreat: Tanjung Sepat",
+                "images": [
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.33 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.43 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.14.01 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.14.15 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.17.00 PM (1).jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.17.00 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.18.38 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.19.24 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.21.48 PM.jpeg",
+                    "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.40.07 PM.jpeg"
+                ]
+            },
+            {
+                "event": "Christmas Dinner: Pastor Peter's house",
+                "images": [
+                    "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 9.34.40 PM.jpeg",
+            "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 10.09.21 PM (1).jpeg",
+            "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 10.09.21 PM.jpeg",
+            "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 10.09.23 PM.jpeg",
+            "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 10.09.25 PM.jpeg",
+            "/events/christmas_dinner_2024/WhatsApp Image 2024-12-25 at 10.10.10 PM.jpeg"
+                ]
+            }
         ]
     },
     {
-        "title": "2024",
-        "subtitle": "Sept 2024",
-        "paragraphs": [
-            "Church Retreat: Long Sands, Port Dickson"
-        ],
-        "images": [
-            "/events/pd_retreat/pd-retreat.jpg",
-            "/events/pd_retreat/sea_view.jpg",
-            "/events/pd_retreat/hiking.jpg",
-            "/events/pd_retreat/picnic_by_the_beach.jpg",
-            "/events/pd_retreat/dinner1.jpg",
-            "/events/pd_retreat/dinner2.jpg",
-            "/events/pd_retreat/dinner3.jpg",
-            "/events/pd_retreat/dinner4.jpg",
-            "/events/pd_retreat/dinner5.jpg",
-            "/events/pd_retreat/dinner6.jpg",
-            "/events/pd_retreat/morning_sunrise.jpg",
-            "/events/pd_retreat/morning_sunrise2.jpg",
-            "/events/pd_retreat/checkout.jpg"
+        "title": "Sept 2024",
+        "subtitle": "September 2024",
+        "content": [
+            {
+                "event": "Church Retreat: Long Sands, Port Dickson",
+                "images": [
+                    "/events/pd_retreat/pd-retreat.jpg",
+                    "/events/pd_retreat/sea_view.jpg",
+                    "/events/pd_retreat/hiking.jpg",
+                    "/events/pd_retreat/picnic_by_the_beach.jpg",
+                    "/events/pd_retreat/dinner1.jpg",
+                    "/events/pd_retreat/dinner2.jpg",
+                    "/events/pd_retreat/dinner3.jpg",
+                    "/events/pd_retreat/dinner4.jpg",
+                    "/events/pd_retreat/dinner5.jpg",
+                    "/events/pd_retreat/dinner6.jpg",
+                    "/events/pd_retreat/morning_sunrise.jpg",
+                    "/events/pd_retreat/morning_sunrise2.jpg",
+                    "/events/pd_retreat/checkout.jpg"
+                ]
+            }
         ]
     }
 ]
