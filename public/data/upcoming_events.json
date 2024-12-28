@@ -1,18 +1,34 @@
 [
   {
-    "title": "Mooncake Festival Celebration",
-    "desc": "Mooncake Festival after lunch at church",
-    "imgUrl": "/events/mooncake-festival.jpg",
+    "title": "English Corner Retreat",
+    "desc": "English Corner Retreat at Tanjung Sepat",
+    "imgUrl": "/upcoming-events/tanjung_sepat_2024.jpeg",
     "ctaText": "View Poster",
     "ctaLink": "/",
-    "date": "8/9/2024"
+    "date": "28/12/2024"
+  },
+  {
+    "title": "Christmas Party",
+    "desc": "Christmas Party at Pastor Peter's house",
+    "imgUrl": "/upcoming-events/christmas_dinner_2024.jpeg",
+    "ctaText": "View Poster",
+    "ctaLink": "/",
+    "date": "25/12/2024"
   },
   {
     "title": "Church Retreat",
     "desc": "Church Retreat (KL x Setapak CDC) 2024",
-    "imgUrl": "/events/pd-retreat.jpg",
+    "imgUrl": "/upcoming-events/pd-retreat.jpg",
     "ctaText": "View Poster",
     "ctaLink": "/",
     "date": "21/9/2024"
+  },
+  {
+    "title": "Mooncake Festival Celebration",
+    "desc": "Mooncake Festival after lunch at church",
+    "imgUrl": "/upcoming-events/mooncake-festival.jpg",
+    "ctaText": "View Poster",
+    "ctaLink": "/",
+    "date": "8/9/2024"
   }
 ]
