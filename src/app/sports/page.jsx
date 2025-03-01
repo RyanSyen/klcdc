@@ -26,6 +26,13 @@ const Sports = () => {
       ),
     },
     {
+      title: "Pickleball",
+      value: "pickleball",
+      content: (
+        <PickleballContent />
+      ),
+    },
+    {
       title: "Others",
       value: "others",
       content: (
@@ -36,7 +43,7 @@ const Sports = () => {
 
   return (
     <Tabs defaultValue={tabs[0].value} className="py-20 px-8 flex flex-col justify-center items-center">
-      <TabsList className="grid w-full grid-cols-2 max-w-[1000px]">
+      <TabsList className="grid w-full grid-cols-3 max-w-[1000px]">
         {tabs.map((tab, index) => (
           <TabsTrigger key={index} value={tab.value}>{tab.title}</TabsTrigger>
         ))}
@@ -79,6 +86,44 @@ const BadmintonContent = () => {
             <div className="flex flex-col py-4">
               <h3 className="scroll-m-20 text-xl tracking-tight font-bold">CONTACT</h3>
               <p>Call or Whatsapp Ryan at 01112836502 if you have any questions. Thank you.
+              </p>
+            </div>
+          </section>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+
+const PickleballContent = () => {
+  return (
+    <div className='max-w-[1000px]'>
+      <Card>
+        <CardHeader>
+          <CardTitle className="scroll-m-20 pb-4 text-3xl font-semibold tracking-tight first:mt-0">Pickleball</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-2">
+          <section className="py-4">
+            <div>
+              <Image src={"/sports/pickleball.jpg"} width={960} height={540} alt="pickleball" priority />
+            </div>
+            <div className="flex flex-col py-4">
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">VENUE</h3>
+              <div className="flex items-center gap-4">
+                <h3 className="scroll-m-20 text-lg tracking-tight">P3 Courts | Pickle Bros (Subject to availability)
+                </h3>
+                {/* <Link href={"https://maps.app.goo.gl/t848gF43BBWM1tgXA"} target="_blank"><Image src="/sports/google-maps.png" height={24} width={24} alt="Google Maps" /></Link> */}
+              </div>
+              <p>Hosted by Darren</p>
+            </div>
+            <div className="flex flex-col py-4">
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">DATE & TIME</h3>
+              <h3 className="scroll-m-20 tracking-tight">Every Sunday 3:00PM - 5:00PM
+              </h3>
+            </div>
+            <div className="flex flex-col py-4">
+              <h3 className="scroll-m-20 text-xl tracking-tight font-bold">CONTACT</h3>
+              <p>Call or Whatsapp Darren at 0178889291 if you have any questions. Thank you.
               </p>
             </div>
           </section>
