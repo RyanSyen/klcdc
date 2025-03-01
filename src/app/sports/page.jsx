@@ -110,7 +110,7 @@ const PickleballContent = () => {
             <div className="flex flex-col py-4">
               <h3 className="scroll-m-20 text-xl tracking-tight font-bold">VENUE</h3>
               <div className="flex items-center gap-4">
-                <h3 className="scroll-m-20 text-lg tracking-tight">P3 Courts | Pickle Bros (Subject to availability)
+                <h3 className="scroll-m-20 text-lg tracking-tight">P3 Courts | Pickle Bros | Bayan Club (Subject to availability)
                 </h3>
                 {/* <Link href={"https://maps.app.goo.gl/t848gF43BBWM1tgXA"} target="_blank"><Image src="/sports/google-maps.png" height={24} width={24} alt="Google Maps" /></Link> */}
               </div>
@@ -118,7 +118,7 @@ const PickleballContent = () => {
             </div>
             <div className="flex flex-col py-4">
               <h3 className="scroll-m-20 text-xl tracking-tight font-bold">DATE & TIME</h3>
-              <h3 className="scroll-m-20 tracking-tight">Every Sunday 3:00PM - 5:00PM
+              <h3 className="scroll-m-20 tracking-tight">Every Sunday 2:00PM - 4:00PM OR 3:00PM - 5:00PM
               </h3>
             </div>
             <div className="flex flex-col py-4">
