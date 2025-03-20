@@ -1,7 +1,15 @@
 [
   {
     "title": "Church Retreat",
-    "desc": "Church Retreat at Gamuda Garden Central Park",
+    "desc": "Church Retreat at Canaan Valley Heritage Park",
+    "imgUrl": "/upcoming-events/KLCDC_Church_Retreat_2025.png",
+    "ctaText": "View Poster",
+    "ctaLink": "/",
+    "date": "05/09/2025-07/09/2025"
+  },
+  {
+    "title": "Church Outing",
+    "desc": "Church Outing at Gamuda Garden Central Park",
     "imgUrl": "/upcoming-events/gamuda_church_retreat_portrait_2.png",
     "ctaText": "View Poster",
     "ctaLink": "/",
