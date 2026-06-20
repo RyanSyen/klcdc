@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="w-full px-8 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="/" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 src="/icon/logo.png"
                 width={48}
@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-wrap">
                 Kuala Lumpur Christian Disciples Church
               </span>
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
             <div>

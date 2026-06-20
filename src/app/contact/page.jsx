@@ -12,8 +12,8 @@ import {
   Phone,
   Mail,
   Church,
-  Instagram,
 } from "lucide-react";
+import { IconBrandInstagram } from "@tabler/icons-react";
 import Link from "next/link";
 import { LinkPreview } from "@/components/ui/link-preview";
 
@@ -101,7 +101,7 @@ const Contact = () => {
           </Card>
           <Card className="w-[300px] h-[270px]">
             <CardHeader>
-              <Instagram size={48} strokeWidth={2.25} />
+              <IconBrandInstagram size={48} stroke={2.25} />
               <CardTitle className="pt-4">Instagram</CardTitle>
             </CardHeader>
             <CardContent>
