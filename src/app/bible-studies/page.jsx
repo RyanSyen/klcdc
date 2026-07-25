@@ -28,7 +28,7 @@ const BibleStudies = () => {
           </div>
           <div>
             <b>CHINESE - MANDARIN</b> <br />
-            Saturdays 星期六 10:00am<br />
+            Saturdays 星期六 8:15am<br />
             Contact: Pastor Angie (016-6599311) <br />
             Meeting via <Link className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500" href={"https://us02web.zoom.us/j/83873588428?pwd=ZGtEV3NqSVRiRWthRFJNQ2VMTWY4UT09"} target="_blank">Zoom</Link>
           </div>
