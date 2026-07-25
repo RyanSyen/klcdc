@@ -28,19 +28,19 @@ const Page = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href={"/youth-corner"}>
+                    <Link href={"/english-corner"}>
                         <div className="max-w-xs w-full group/card">
                             <div
                                 className="cursor-pointer overflow-hidden relative card h-80 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4 bg-cover"
                             >
-                                <Image src="/navbar/youth-corner.png" fill alt="Youth Corner" />
+                                <Image src="/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.33 PM.jpeg" className="object-cover" fill alt="English Corner" />
                                 <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-60"></div>
                                 <div className="text content">
                                     <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                                        Youth Corner
+                                        English Corner
                                     </h1>
                                     <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
-                                        A vibrant space for youths to connect, grow, and explore their faith.
+                                        Learn English through the Word of God, fun games, and outdoor outings.
                                     </p>
                                 </div>
                             </div>

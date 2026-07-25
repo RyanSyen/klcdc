@@ -13,13 +13,14 @@ const BibleStudies = () => {
         </div>
         <div className="flex flex-col gap-6">
           <div>
-            <b>ENGLISH - ADULTS (Fridays 8:15pm)</b> <br />
+            <b>ENGLISH - ADULTS</b> <br />
+            Tuesdays 8:15pm<br />
             Contact: Pastor Peter (012-3564644)<br />
             Meeting via <Link className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500" href={"https://us02web.zoom.us/j/83873588428?pwd=ZGtEV3NqSVRiRWthRFJNQ2VMTWY4UT09"} target="_blank">Zoom</Link>
           </div>
           <div>
             <b>ENGLISH - YOUNG ADULTS/ COLLEGE AND UNIVERSITY STUDENTS</b> <br />
-            A Free and Easy time of sharing, fellowship and Studying the Word of God <br />
+            Fridays 7:00pm<br />
             7:00pm - Dinner<br />
             8:00pm - Bible Study<br />
             Contact: Vern Yeoh (016-6128096)<br />

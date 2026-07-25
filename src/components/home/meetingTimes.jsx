@@ -35,11 +35,11 @@ const data = [
   },
   {
     id: 2,
-    title: "Youth Meeting",
+    title: "English Corner",
     time: "Saturday at 4:00 PM - 6:00 PM",
-    actionLink: "/youth-corner",
+    actionLink: "/english-corner",
     actionTitle: "More Info",
-    imgUrl: "/home/youth.jpg",
+    imgUrl: "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.33 PM.jpeg",
   },
   {
     id: 3,
