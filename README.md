@@ -12,7 +12,7 @@ Website for KLCDC — built with Next.js. Includes sections for sermons, bible s
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) 20 or later (see `.nvmrc`)
+- [Node.js](https://nodejs.org/) 24.x (see `.nvmrc`)
 - npm (ships with Node)
 
 If you use [nvm](https://github.com/nvm-sh/nvm), run `nvm use` in the project root to pick up the correct version automatically.
