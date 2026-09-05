@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div className="h-20 bg-black" />
       <CurrentSeries />
       <MeetingTimes />
       {/* TODO: Worship section */}

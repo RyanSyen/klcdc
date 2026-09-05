@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Romans",
+    "pastor": "By Pastor Peter",
+    "imgUrl": "/banner/armor_of_god.jpg",
+    "alt": "Romans series"
+  },
+  {
+    "title": "Kingdom of God",
+    "pastor": "By Pastor Anne",
+    "imgUrl": "/home/sunday-service.jpg",
+    "alt": "Kingdom of God series"
+  },
+  {
+    "title": "Spiritual Life",
+    "pastor": "By Pastor Angie",
+    "imgUrl": "/home/bible-study.jpg",
+    "alt": "Spiritual Life series"
+  }
+]

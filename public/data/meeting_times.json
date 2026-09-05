@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "title": "Prayer Meeting & Communion",
+    "time": "Sunday at 10:00 AM - 11:00 AM",
+    "desc": [
+      "Prayer Meeting: Every 3rd and 5th Sunday",
+      "Communion: Every 1st Sunday"
+    ],
+    "imgUrl": "/home/communion.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Main Service",
+    "time": "Sunday at 11:00 AM - 12:30 PM",
+    "desc": [
+      "Translation sets available for English and Mandarin services",
+      "Online Service via Zoom (Bilingual streams for English and Chinese)"
+    ],
+    "actionLink": "https://us02web.zoom.us/j/82399594814?pwd=rCoiA0YCfQYI2KHw2eAkHZQSHtz33m.1",
+    "actionTitle": "Join Online",
+    "imgUrl": "/home/sunday-service.jpg"
+  },
+  {
+    "id": 2,
+    "title": "English Corner",
+    "time": "Saturday at 4:00 PM - 6:00 PM",
+    "actionLink": "/english-corner",
+    "actionTitle": "More Info",
+    "imgUrl": "/events/ec_tanjung_sepat_2024/WhatsApp Image 2024-12-28 at 4.13.33 PM.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Bible Study and Fellowship Groups",
+    "actionLink": "/bible-studies",
+    "actionTitle": "More Info",
+    "imgUrl": "/home/bible-study.jpg"
+  }
+]

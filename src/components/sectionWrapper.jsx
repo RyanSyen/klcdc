@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
-import { stagger } from "framer-motion";
+import { staggerContainer } from "@/lib/motion";
 
 const SectionWrapper = (Component) =>
-  function HOC() {
+  function HOC(props) {
     return (
       <motion.section
-        variants={stagger()}
+        variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
         className={`relative z-0`}
       >
-        <Component />
+        <Component {...props} />
       </motion.section>
     );
   };
