@@ -14,7 +14,7 @@ const BibleStudies = () => {
         <div className="flex flex-col gap-6">
           <div>
             <b>ENGLISH - ADULTS</b> <br />
-            Tuesdays 8:15pm<br />
+            Tuesdays 8:00pm<br />
             Contact: Pastor Peter (012-3564644)<br />
             Meeting via <Link className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500" href={"https://us02web.zoom.us/j/83873588428?pwd=ZGtEV3NqSVRiRWthRFJNQ2VMTWY4UT09"} target="_blank">Zoom</Link>
           </div>
